@@ -1,0 +1,14 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\bin\Debug\net8.0\GenericMethodDemo.exe
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\bin\Debug\net8.0\GenericMethodDemo.deps.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\bin\Debug\net8.0\GenericMethodDemo.runtimeconfig.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\bin\Debug\net8.0\GenericMethodDemo.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\bin\Debug\net8.0\GenericMethodDemo.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\obj\Debug\net8.0\GenericMethodDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\obj\Debug\net8.0\GenericMethodDemo.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\obj\Debug\net8.0\GenericMethodDemo.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\obj\Debug\net8.0\GenericMethodDemo.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\obj\Debug\net8.0\GenericMethodDemo.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\obj\Debug\net8.0\refint\GenericMethodDemo.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\obj\Debug\net8.0\GenericMethodDemo.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\obj\Debug\net8.0\GenericMethodDemo.genruntimeconfig.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\GenericMethodDemo\obj\Debug\net8.0\ref\GenericMethodDemo.dll

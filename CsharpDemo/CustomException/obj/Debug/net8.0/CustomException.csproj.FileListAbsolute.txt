@@ -1,0 +1,14 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\bin\Debug\net8.0\CustomException.exe
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\bin\Debug\net8.0\CustomException.deps.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\bin\Debug\net8.0\CustomException.runtimeconfig.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\bin\Debug\net8.0\CustomException.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\bin\Debug\net8.0\CustomException.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\obj\Debug\net8.0\CustomException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\obj\Debug\net8.0\CustomException.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\obj\Debug\net8.0\CustomException.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\obj\Debug\net8.0\CustomException.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\obj\Debug\net8.0\CustomException.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\obj\Debug\net8.0\refint\CustomException.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\obj\Debug\net8.0\CustomException.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\obj\Debug\net8.0\CustomException.genruntimeconfig.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\CustomException\obj\Debug\net8.0\ref\CustomException.dll

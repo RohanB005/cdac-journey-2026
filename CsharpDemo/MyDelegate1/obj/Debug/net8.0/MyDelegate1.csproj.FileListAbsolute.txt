@@ -1,0 +1,14 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\bin\Debug\net8.0\MyDelegate1.exe
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\bin\Debug\net8.0\MyDelegate1.deps.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\bin\Debug\net8.0\MyDelegate1.runtimeconfig.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\bin\Debug\net8.0\MyDelegate1.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\bin\Debug\net8.0\MyDelegate1.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\obj\Debug\net8.0\MyDelegate1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\obj\Debug\net8.0\MyDelegate1.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\obj\Debug\net8.0\MyDelegate1.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\obj\Debug\net8.0\MyDelegate1.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\obj\Debug\net8.0\MyDelegate1.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\obj\Debug\net8.0\refint\MyDelegate1.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\obj\Debug\net8.0\MyDelegate1.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\obj\Debug\net8.0\MyDelegate1.genruntimeconfig.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate1\obj\Debug\net8.0\ref\MyDelegate1.dll

@@ -1,0 +1,14 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\bin\Debug\net8.0\StreamWriterDemo.exe
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\bin\Debug\net8.0\StreamWriterDemo.deps.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\bin\Debug\net8.0\StreamWriterDemo.runtimeconfig.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\bin\Debug\net8.0\StreamWriterDemo.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\bin\Debug\net8.0\StreamWriterDemo.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\obj\Debug\net8.0\StreamWriterDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\obj\Debug\net8.0\StreamWriterDemo.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\obj\Debug\net8.0\StreamWriterDemo.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\obj\Debug\net8.0\StreamWriterDemo.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\obj\Debug\net8.0\StreamWriterDemo.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\obj\Debug\net8.0\refint\StreamWriterDemo.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\obj\Debug\net8.0\StreamWriterDemo.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\obj\Debug\net8.0\StreamWriterDemo.genruntimeconfig.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\StreamWriter\obj\Debug\net8.0\ref\StreamWriterDemo.dll

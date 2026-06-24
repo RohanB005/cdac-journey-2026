@@ -1,0 +1,4 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate\obj\Debug\net8.0\MyDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate\obj\Debug\net8.0\MyDelegate.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate\obj\Debug\net8.0\MyDelegate.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\MyDelegate\obj\Debug\net8.0\MyDelegate.csproj.CoreCompileInputs.cache

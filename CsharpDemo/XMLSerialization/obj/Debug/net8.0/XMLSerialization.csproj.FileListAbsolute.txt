@@ -1,0 +1,14 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\bin\Debug\net8.0\XMLSerialization.exe
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\bin\Debug\net8.0\XMLSerialization.deps.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\bin\Debug\net8.0\XMLSerialization.runtimeconfig.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\bin\Debug\net8.0\XMLSerialization.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\bin\Debug\net8.0\XMLSerialization.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\obj\Debug\net8.0\XMLSerialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\obj\Debug\net8.0\XMLSerialization.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\obj\Debug\net8.0\XMLSerialization.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\obj\Debug\net8.0\XMLSerialization.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\obj\Debug\net8.0\XMLSerialization.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\obj\Debug\net8.0\refint\XMLSerialization.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\obj\Debug\net8.0\XMLSerialization.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\obj\Debug\net8.0\XMLSerialization.genruntimeconfig.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CsharpDemo\XMLSerialization\obj\Debug\net8.0\ref\XMLSerialization.dll

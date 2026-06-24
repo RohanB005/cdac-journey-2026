@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F41091D-8752-4705-B23F-DFE03A8CC302}|EmployeeFile\\EmployeeFile.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\employeefile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F41091D-8752-4705-B23F-DFE03A8CC302}|EmployeeFile\\EmployeeFile.csproj|solutionrelative:employeefile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F41091D-8752-4705-B23F-DFE03A8CC302}|EmployeeFile\\EmployeeFile.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\employeefile\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F41091D-8752-4705-B23F-DFE03A8CC302}|EmployeeFile\\EmployeeFile.csproj|solutionrelative:employeefile\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1814489F-8188-459A-85D5-3E608F434AD3}|StreamReaderDemo\\StreamReaderDemo.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\streamreaderdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1814489F-8188-459A-85D5-3E608F434AD3}|StreamReaderDemo\\StreamReaderDemo.csproj|solutionrelative:streamreaderdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C68FD50-4BF7-4197-8B8D-E3FCEAA5493B}|StreamWriter\\StreamWriter.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\streamwriter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C68FD50-4BF7-4197-8B8D-E3FCEAA5493B}|StreamWriter\\StreamWriter.csproj|solutionrelative:streamwriter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41435BD-BD8B-4DF9-B4A1-BDFBA5E1C07C}|FileHandling\\FileHandling.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\filehandling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41435BD-BD8B-4DF9-B4A1-BDFBA5E1C07C}|FileHandling\\FileHandling.csproj|solutionrelative:filehandling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7962AFF5-8BC8-4EB4-AAD0-76E148E12BC4}|CustomException\\CustomException.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\customexception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7962AFF5-8BC8-4EB4-AAD0-76E148E12BC4}|CustomException\\CustomException.csproj|solutionrelative:customexception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7962AFF5-8BC8-4EB4-AAD0-76E148E12BC4}|CustomException\\CustomException.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\customexception\\ageexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7962AFF5-8BC8-4EB4-AAD0-76E148E12BC4}|CustomException\\CustomException.csproj|solutionrelative:customexception\\ageexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665B11FB-FC76-4348-8CF9-A69949B3913A}|ExceptionHandlingDemo\\ExceptionHandlingDemo.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\exceptionhandlingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665B11FB-FC76-4348-8CF9-A69949B3913A}|ExceptionHandlingDemo\\ExceptionHandlingDemo.csproj|solutionrelative:exceptionhandlingdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2633ED2D-A320-404D-BCA5-CDAD3F8DE360}|XMLSerialization\\XMLSerialization.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\xmlserialization\\employee5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2633ED2D-A320-404D-BCA5-CDAD3F8DE360}|XMLSerialization\\XMLSerialization.csproj|solutionrelative:xmlserialization\\employee5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28277F4-75F3-40DC-821B-862CA9B6FEDA}|BinarySerialization\\BinarySerialization.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\binaryserialization\\employee4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28277F4-75F3-40DC-821B-862CA9B6FEDA}|BinarySerialization\\BinarySerialization.csproj|solutionrelative:binaryserialization\\employee4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2633ED2D-A320-404D-BCA5-CDAD3F8DE360}|XMLSerialization\\XMLSerialization.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\xmlserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2633ED2D-A320-404D-BCA5-CDAD3F8DE360}|XMLSerialization\\XMLSerialization.csproj|solutionrelative:xmlserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F28277F4-75F3-40DC-821B-862CA9B6FEDA}|BinarySerialization\\BinarySerialization.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\binaryserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F28277F4-75F3-40DC-821B-862CA9B6FEDA}|BinarySerialization\\BinarySerialization.csproj|solutionrelative:binaryserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E246C431-41A8-4E94-9EDE-DEF59926B219}|GenericCollections\\GenericCollections.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\genericcollections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E246C431-41A8-4E94-9EDE-DEF59926B219}|GenericCollections\\GenericCollections.csproj|solutionrelative:genericcollections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{949CF8FF-EFAF-4889-9C20-6C43FD8B2C1E}|GenericMethodDemo\\GenericMethodDemo.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\genericmethoddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{949CF8FF-EFAF-4889-9C20-6C43FD8B2C1E}|GenericMethodDemo\\GenericMethodDemo.csproj|solutionrelative:genericmethoddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EA4405-9F6E-44B3-8E9D-50E6245779EE}|MultiCastDelegateDemo\\MultiCastDelegateDemo.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\multicastdelegatedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EA4405-9F6E-44B3-8E9D-50E6245779EE}|MultiCastDelegateDemo\\MultiCastDelegateDemo.csproj|solutionrelative:multicastdelegatedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06DA139C-1019-4B8F-895E-13FDD9A3961B}|MyClass\\MyClass.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\myclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06DA139C-1019-4B8F-895E-13FDD9A3961B}|MyClass\\MyClass.csproj|solutionrelative:myclass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C013F2A-0A05-4C20-B13A-9EEB54BF3043}|MyDelegate1\\MyDelegate1.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\mydelegate1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C013F2A-0A05-4C20-B13A-9EEB54BF3043}|MyDelegate1\\MyDelegate1.csproj|solutionrelative:mydelegate1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CBC3CD-1BEE-48C2-BF78-EC1605A6AE11}|CollectionDemo\\CollectionDemo.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\collectiondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1CBC3CD-1BEE-48C2-BF78-EC1605A6AE11}|CollectionDemo\\CollectionDemo.csproj|solutionrelative:collectiondemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A894B3-A1A1-465D-822E-42549224F8F9}|Publisher\\Publisher.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\csharpdemo\\publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A894B3-A1A1-465D-822E-42549224F8F9}|Publisher\\Publisher.csproj|solutionrelative:publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\EmployeeFile\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeFile\\Employee.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\EmployeeFile\\Employee.cs",
+              "RelativeToolTip": "EmployeeFile\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T11:54:57.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\EmployeeFile\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeFile\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\EmployeeFile\\Program.cs",
+              "RelativeToolTip": "EmployeeFile\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T11:54:28.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\StreamReaderDemo\\Program.cs",
+              "RelativeDocumentMoniker": "StreamReaderDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\StreamReaderDemo\\Program.cs",
+              "RelativeToolTip": "StreamReaderDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T11:51:08.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\StreamWriter\\Program.cs",
+              "RelativeDocumentMoniker": "StreamWriter\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\StreamWriter\\Program.cs",
+              "RelativeToolTip": "StreamWriter\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T11:47:31.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\FileHandling\\Program.cs",
+              "RelativeDocumentMoniker": "FileHandling\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\FileHandling\\Program.cs",
+              "RelativeToolTip": "FileHandling\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T11:43:50.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AgeException.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\CustomException\\AgeException.cs",
+              "RelativeDocumentMoniker": "CustomException\\AgeException.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\CustomException\\AgeException.cs",
+              "RelativeToolTip": "CustomException\\AgeException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T11:27:55.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\CustomException\\Program.cs",
+              "RelativeDocumentMoniker": "CustomException\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\CustomException\\Program.cs",
+              "RelativeToolTip": "CustomException\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T11:27:07.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\ExceptionHandlingDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ExceptionHandlingDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\ExceptionHandlingDemo\\Program.cs",
+              "RelativeToolTip": "ExceptionHandlingDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T11:21:11.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee5.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\XMLSerialization\\Employee5.cs",
+              "RelativeDocumentMoniker": "XMLSerialization\\Employee5.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\XMLSerialization\\Employee5.cs",
+              "RelativeToolTip": "XMLSerialization\\Employee5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:54:34.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\XMLSerialization\\Program.cs",
+              "RelativeDocumentMoniker": "XMLSerialization\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\XMLSerialization\\Program.cs",
+              "RelativeToolTip": "XMLSerialization\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:53:53.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee4.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\BinarySerialization\\Employee4.cs",
+              "RelativeDocumentMoniker": "BinarySerialization\\Employee4.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\BinarySerialization\\Employee4.cs",
+              "RelativeToolTip": "BinarySerialization\\Employee4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:42:11.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\BinarySerialization\\Program.cs",
+              "RelativeDocumentMoniker": "BinarySerialization\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\BinarySerialization\\Program.cs",
+              "RelativeToolTip": "BinarySerialization\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:40:28.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\GenericCollections\\Program.cs",
+              "RelativeDocumentMoniker": "GenericCollections\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\GenericCollections\\Program.cs",
+              "RelativeToolTip": "GenericCollections\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:34:37.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\GenericMethodDemo\\Program.cs",
+              "RelativeDocumentMoniker": "GenericMethodDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\GenericMethodDemo\\Program.cs",
+              "RelativeToolTip": "GenericMethodDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:28:40.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\MultiCastDelegateDemo\\Program.cs",
+              "RelativeDocumentMoniker": "MultiCastDelegateDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\MultiCastDelegateDemo\\Program.cs",
+              "RelativeToolTip": "MultiCastDelegateDemo\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T10:22:52.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\MyClass\\Program.cs",
+              "RelativeDocumentMoniker": "MyClass\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\MyClass\\Program.cs",
+              "RelativeToolTip": "MyClass\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:59:39.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\CollectionDemo\\Program.cs",
+              "RelativeDocumentMoniker": "CollectionDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\CollectionDemo\\Program.cs",
+              "RelativeToolTip": "CollectionDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:55:30.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\Publisher\\Program.cs",
+              "RelativeDocumentMoniker": "Publisher\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\Publisher\\Program.cs",
+              "RelativeToolTip": "Publisher\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:51:00.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\MyDelegate1\\Program.cs",
+              "RelativeDocumentMoniker": "MyDelegate1\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\CsharpDemo\\MyDelegate1\\Program.cs",
+              "RelativeToolTip": "MyDelegate1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T09:48:06Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

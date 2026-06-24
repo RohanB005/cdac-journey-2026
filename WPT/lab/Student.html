@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student</title>
+    </head>
+    <body>
+        <h1>Student Details</h1>
+
+        StudentId:<input type="text" id="sid"><br><br>
+        StudentName:<input type="text" id="sname"><br><br>
+
+        <button onclick="saveStudent()">Add</button><br><br>
+
+        <table border="1" id="studentTable">
+            <tr>
+                <th>Student ID</th>
+                <th>Student Name</th>
+            </tr>
+        </table>
+
+        <script>
+            function saveStudent()
+            {
+                let id = document.getElementById("sid").value;
+                let name = document.getElementById("sname").value;
+
+                let Student = {
+                    s_id : id,
+                    s_name : name
+                };
+
+                let table = document.getElementById("studentTable");
+                let row = table.insertRow();
+                let cell1 = row.insertCell(0);
+                let cell2 = row.insertCell(1);
+
+                cell1.innerHTML = Student.s_id;
+                cell2.innerHTML = Student.s_name;
+
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form onsubmit="return validateForm()">
+
+    Full Name:
+    <input type="text" id="fullname"><br><br>
+    <span id="nameErr" style="color:red"></span><br>
+
+    Email:
+    <input type="text" id="email"><br><br>
+    <span id="emailErr" style="color:red"></span><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female<br><br>
+    <span id="genderErr" style="color:red"></span><br>
+
+    Address:
+    <textarea id="address"></textarea><br><br>
+    <span id="addrErr" style="color:red"></span><br>
+
+    Qualification:
+    <select id="qualification">
+        <option value="">Select</option>
+        <option>SSC</option>
+        <option>HSC</option>
+        <option>Diploma</option>
+        <option>Graduate</option>
+    </select><br><br>
+    <span id="qualErr" style="color:red"></span><br>
+
+    Passing Year:
+    <input type="text" id="year"><br><br>
+    <span id="yearErr" style="color:red"></span><br>
+
+    Mobile:
+    <input type="text" id="mobile"><br><br>
+    <span id="mobileErr" style="color:red"></span><br>
+
+    <input type="submit" value="Register">
+
+</form>
+
+<script>
+function validateForm() {
+
+    let name = document.getElementById("fullname").value;
+    let email = document.getElementById("email").value;
+    let address = document.getElementById("address").value;
+    let qualification = document.getElementById("qualification").value;
+    let year = document.getElementById("year").value;
+    let mobile = document.getElementById("mobile").value;
+    let gender = document.getElementsByName("gender");
+
+    let nameErr = emailErr = genderErr = addrErr = qualErr = yearErr = mobileErr = "";
+
+    // Clear old errors
+    document.getElementById("nameErr").innerHTML = "";
+    document.getElementById("emailErr").innerHTML = "";
+    document.getElementById("genderErr").innerHTML = "";
+    document.getElementById("addrErr").innerHTML = "";
+    document.getElementById("qualErr").innerHTML = "";
+    document.getElementById("yearErr").innerHTML = "";
+    document.getElementById("mobileErr").innerHTML = "";
+
+    let valid = true;
+
+    // Name validation
+    if (!/^[A-Za-z ]+$/.test(name)) {
+        document.getElementById("nameErr").innerHTML = "Only letters & spaces allowed";
+        valid = false;
+    }
+
+    // Email validation
+    if (!/^\S+@\S+\.\S+$/.test(email)) {
+        document.getElementById("emailErr").innerHTML = "Invalid email";
+        valid = false;
+    }
+
+    // Gender validation
+    let selected = false;
+    for (let i = 0; i < gender.length; i++) {
+        if (gender[i].checked) {
+            selected = true;
+        }
+    }
+    if (!selected) {
+        document.getElementById("genderErr").innerHTML = "Select gender";
+        valid = false;
+    }
+
+    // Address validation
+    if (address.trim() === "") {
+        document.getElementById("addrErr").innerHTML = "Address required";
+        valid = false;
+    }
+
+    // Qualification validation
+    if (qualification === "") {
+        document.getElementById("qualErr").innerHTML = "Select qualification";
+        valid = false;
+    }
+
+    // Year validation
+    if (!/^\d{4}$/.test(year)) {
+        document.getElementById("yearErr").innerHTML = "Enter valid 4-digit year";
+        valid = false;
+    }
+
+    // Mobile validation
+    if (!/^\d{10}$/.test(mobile)) {
+        document.getElementById("mobileErr").innerHTML = "Enter valid 10-digit number";
+        valid = false;
+    }
+
+    return valid;
+}
+</script>
+
+</body>
+</html>

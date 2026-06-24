@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+    </head>
+    <body>
+        <h2>Table Generator</h2>
+
+        <label for="num">Enter Number:</label>
+        <input type="text" id="num" ><br><br>
+
+        <button onclick="showTable()">Show Table</button>
+
+        <p id="result"></p>
+
+        <script>
+            function showTable()
+            {
+                let n = document.getElementById("num").value;
+
+                if(n === "")
+            {
+                alert("Please enter data");
+                return;
+            }
+            if(isNaN(n)){
+                alert("Enter a number");
+                return;
+            }
+            let result = "";
+            for(let i=1;i<=10;i++)
+            {
+                result += n + "x" + i + "=" + (n*i) + "<br>";
+            }
+            document.getElementById("result").innerHTML = result;
+            }
+        </script>
+    </body>
+</html>

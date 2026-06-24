@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery String</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <h2>String operations</h2>
+
+        <input type="text" id="txt">
+        <button id="btn">Process</button>
+
+        <p id="res"></p>
+
+        <script>
+            $("#btn").click(function(){
+                let str = $("#txt").val();
+
+                let rev = str.split("").reverse().join("");
+                let upper = rev.toUpperCase();
+
+                $("#res").text(upper);
+            });
+        </script>
+    </body>
+</html>

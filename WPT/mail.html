@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email Validation</title>
+    </head>
+    <body>
+        <h2>Email Validation</h2>
+        <input type="text" id="a1" name="email"></input>
+        <button onclick="validate()">Validate</button>
+        <script>
+            function validate()
+            {
+                var data = document.getElementById("a1").value;
+
+                var i = data.indexOf('@');
+                if(i>0)
+            {
+                var j = data.lastIndexOf('.');
+                if(j>i)
+            {
+                console.log("Valid format");
+            }
+            else
+            {
+                console.log("Invalid format");
+            }
+            }
+            else
+            {
+                console.log("Invalid format");
+            }
+            }
+
+        </script>
+    </body>
+</html>

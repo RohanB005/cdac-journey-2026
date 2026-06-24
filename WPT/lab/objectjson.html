@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <h2>Object to JSON and Back</h2>
+
+        <button id="btn">Convert</button>
+        <p id="res"></p>
+
+        <script>
+            $("#btn").click(function(){
+                let student = {
+                    name:"rohan",
+                    age:24,
+                    marks:84
+                };
+                let jsonData = JSON.stringify(student);
+
+                let newObj = JSON.parse(jsonData);
+
+                $("#res").html(
+                    "JSON" + jsonData + "<br>" + "Name from Object: " + newObj.name
+                );
+            });
+        </script>
+    </body>
+</html>

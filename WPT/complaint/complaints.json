@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "title":"Garbage not collected",
+        "description":"Garbage is lying near the road in my society",
+        "status":"Pending",
+        "userID":2,
+        "date":"2026-03-22"
+    },
+    {
+        "id":102,
+        "title":"Pothole on road",
+        "description":"Large pothole near main road causing traffic",
+        "status":"InProgress",
+        "userID":2,
+        "date":"2026-03-21"
+    }
+]

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Complaint Page</title>
+    </head>
+    <body>
+        <h2>Register Complaint</h2>
+
+        <input type="text" id="title" placeholder="Enter issue">
+        <textarea id="desc" placeholder="Enter description"></textarea>
+
+        <button onclick="submitComplaint()">Submit</button>
+
+        <p id="msg"></p>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+function submitComplaint()
+{
+    let title = $("#title").val().trim();
+    let desc = $("#desc").val().trim();   // ✅ fixed
+
+    if(title === "" || desc === ""){
+        $("#msg").text("All fields are required").css("color","red");
+        return;
+    }
+
+    let data = {
+        title: title,
+        description: desc   // ✅ fixed
+    };
+
+    $.ajax({
+        url : "http://localhost:3000/complaint",
+        type : "POST",
+        contentType : "application/json",
+        data : JSON.stringify(data),
+
+        success : function(res) {
+            $("#msg").text("Complaint submitted successfully").css("color", "green");
+
+            $("#title").val("");
+            $("#desc").val("");
+        },
+
+        error: function(){
+            $("#msg").text("Error submitting complaint").css("color", "red"); // ✅ fixed
+        }
+    });
+}
+
+        </script>
+    </body>
+</html>

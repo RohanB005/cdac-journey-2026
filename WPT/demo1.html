@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Password Generator</title>
+        <script>
+        function generatePassword()
+            {
+                let length = document.getElementById("length").value;
+
+                let upper = document.getElementById("upper").checked;
+                let lower = document.getElementById("lower").checked;
+                let number = document.getElementById("number").checked;
+                let symbol = document.getElementById("symbol").checked;
+
+                let chars = "";
+                let password = "";
+
+                if(length === "" || length < 4)
+            {
+                alert("Enter Valid Length (min 4)")
+                return false;
+            }
+            if(!upper && !lower && !number && !symbol)
+            {
+                alert("Select atleast one option");
+                return false;
+            }
+            if(upper) chars += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            if(lower) chars += "abcdefghijklmnopqrstuvwxyz";
+            if(number) chars += "0123456789";
+            if(symbol) chars += "@#$%&*";
+
+            for(let i=0;i<length;i++)
+            {
+                let randomIndex = Math.floor(Math.random() * chars.length);
+                password += chars[randomIndex];
+            }
+            document.getElementById("result").value = password;
+            document.getElementById("msg").textContent = "";
+            }
+            function copyPassword()
+            {
+                let passwordField = document.getElementById("result");
+
+                if(passwordField.value === "")
+            {
+                alert("Generate password first");
+                return;
+            }
+            passwordField.select();
+            document.execCommand("copy");
+
+            document.getElementById("msg").textContent = "Copied to clipboard!";
+            }
+        </script>
+    </head>
+    <body>
+  
+        <div class="box">
+            <h2>Pwd Generator</h2>
+            <input type="number" id="length" placeholder="Enter length"><br><br>
+            <div class="options">
+                <input type="checkbox" id="upper">Uppercase<br>
+                <input type="checkbox" id="lower">Lowercase<br>
+                <input type="checkbox" id="number">Numbers<br>
+                <input type="checkbox" id="symbol">Symbols<br>
+            </div>
+            <button onclick="generatePassword()">Generate</button>
+            <button onclick="copyPassword()">Copy</button>
+            <input type="text" id="result" placeholder="Your password" readonly>
+            <div id="msg"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+#Java
+*.class 
+target/
+
+# Eclipse 
+.project
+.classpath
+.settings/
+
+# IntelliJ
+.idea/
+
+# VSCode
+.vscode/
+
+# Build Files
+build/
+out/
+
+# Logs
+*.log

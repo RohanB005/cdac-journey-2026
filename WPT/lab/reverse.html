@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reverse String</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        <h2>Revese String Using jQuery</h2>
+
+        <input type="text" id="txt">
+        <button id="btn">Reverse</button>
+
+        <p id="result"></p>
+
+        <script>
+            $("#btn").click(function(){
+                let str = $("#txt").val();
+                let rev = str.split("").reverse().join("");
+                $("#result").text(rev);
+            });
+        </script>
+    </body>
+</html>

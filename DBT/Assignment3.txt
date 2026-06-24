@@ -1,0 +1,1049 @@
+1. List names of employees whose job is MANAGER.
+mysql> SELECT ENAME FROM EMP1 WHERE JOB = 'Manager';
++-----------+
+| ENAME     |
++-----------+
+| ALICE     |
+| ALEXANDER |
+| JONES     |
+| BLAKE     |
+| CLARK     |
+| SHELLEY   |
++-----------+
+6 rows in set (0.313 sec)
+
+2. List names of employee having salary greater than equal to 3000.
+mysql> SELECT Ename FROM Emp1 WHERE Salary >= 3000;
++-------------+
+| Ename       |
++-------------+
+| ALICE       |
+| VICTOR      |
+| JACK        |
+| WILLIAM     |
+| ROSE        |
+| KATE        |
+| WILLIAM     |
+| MATTHEW     |
+| AARON       |
+| BRUCE       |
+| CHRISTOPHER |
+| CLIVE       |
+| ELI         |
+| ELY         |
+| TROY        |
+| SCOTT       |
+| KING        |
+| FORD        |
+| THOMAS      |
+| SHELLEY     |
++-------------+
+20 rows in set (0.295 sec)
+
+3. List all employees having ‘A’ as second letter in their names.
+mysql> SELECT * FROM Emp1 WHERE Ename LIKE '_A%';
++-------+---------+--------+-------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+| EMPNO | ENAME   | GENDER | JOB               | MGR  | HIRDATE    | SALARY | COMM | DEPTNO | BONUSID | USERNAME | PWD  | PHONE | isActive |
++-------+---------+--------+-------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+|  1002 | JACK    | NULL   | ASSISTANT         | 1001 | 1983-12-25 |   7000 | NULL |    150 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1005 | KATE    | NULL   | ASSISTANT ANALYST | 7388 | 1985-01-30 |   3000 | NULL |    160 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1007 | MATTHEW | NULL   | SALESMAN          | 1005 | 1980-02-28 |   4700 | 1200 |    160 |      13 | NULL     | NULL | NULL  |        1 |
+|  5001 | AARON   | NULL   | SALESMAN          | 7902 | 1981-11-17 |   4500 | 1200 |     60 |       6 | NULL     | NULL | NULL  |        1 |
+|  7521 | WARD    | NULL   | SALESMAN          | 7698 | 1981-02-22 |   1250 |  500 |     30 |       1 | NULL     | NULL | NULL  |        1 |
+|  7654 | MARTIN  | NULL   | SALESMAN          | 7698 | 1981-09-28 |   1250 | 1400 |     30 |       2 | NULL     | NULL | NULL  |        1 |
+|  7900 | JAMES   | NULL   | CLERK             | 7698 | 1981-12-03 |    950 | NULL |     30 |       3 | NULL     | NULL | NULL  |        1 |
++-------+---------+--------+-------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+7 rows in set (0.358 sec)
+
+4. List the Employee Number, Name, Hiredate and Job Title of the Employees in the Department 10.
+mysql> SELECT EMPNO, ENAME, HIRDATE, JOB
+    -> FROM EMP1
+    -> WHERE DEPTNO = 10;
++-------+--------+------------+-----------+
+| EMPNO | ENAME  | HIRDATE    | JOB       |
++-------+--------+------------+-----------+
+|  7782 | CLARK  | 1981-06-09 | MANAGER   |
+|  7839 | KING   | 1981-11-17 | PRESIDENT |
+|  7934 | MILLER | 1982-01-23 | CLERK     |
++-------+--------+------------+-----------+
+3 rows in set (0.049 sec)
+
+5. Display the details of those Employees who earn a monthly Salary of more than 2000.
+mysql> SELECT * FROM EMP1 WHERE SALARY > 2000;
++-------+-------------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+| EMPNO | ENAME       | GENDER | JOB                | MGR  | HIRDATE    | SALARY | COMM | DEPTNO | BONUSID | USERNAME | PWD  | PHONE | isActive |
++-------+-------------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+|  1000 | ALICE       | NULL   | MANAGER            | 7839 | 1983-08-12 |   9000 | NULL |    150 |      13 | NULL     | NULL | NULL  |        1 |
+|  1001 | VICTOR      | NULL   | ASSISTANT MANAGER  | 1000 | 1983-12-25 |   8000 | NULL |    150 |      13 | NULL     | NULL | NULL  |        1 |
+|  1002 | JACK        | NULL   | ASSISTANT          | 1001 | 1983-12-25 |   7000 | NULL |    150 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1003 | WILLIAM     | NULL   | ASSISTANT          | 1001 | 1984-12-30 |   7000 | NULL |    150 |      13 | NULL     | NULL | NULL  |        1 |
+|  1004 | ROSE        | NULL   | ASSISTANT MANAGER  | 1000 | 1985-01-30 |   8000 | NULL |    150 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1005 | KATE        | NULL   | ASSISTANT ANALYST  | 7388 | 1985-01-30 |   3000 | NULL |    160 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1006 | WILLIAM     | NULL   | SALESMAN           | 7388 | 1980-02-13 |  23700 | 1200 |    160 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1007 | MATTHEW     | NULL   | SALESMAN           | 1005 | 1980-02-28 |   4700 | 1200 |    160 |      13 | NULL     | NULL | NULL  |        1 |
+|  5001 | AARON       | NULL   | SALESMAN           | 7902 | 1981-11-17 |   4500 | 1200 |     60 |       6 | NULL     | NULL | NULL  |        1 |
+|  5002 | ALEXANDER   | NULL   | MANAGER            | 7369 | 1981-05-01 |   2950 | NULL |     70 |       7 | NULL     | NULL | NULL  |        1 |
+|  5003 | BROOKE      | NULL   | CLERK              | 5002 | 1981-06-09 |   2222 | NULL |    100 |       8 | NULL     | NULL | NULL  |        1 |
+|  6001 | BRUCE       | NULL   | PERSONAL ASSISTANT | 5002 | 1981-04-02 |   4975 | NULL |     80 |       9 | NULL     | NULL | NULL  |        1 |
+|  6002 | CHRISTOPHER | NULL   | PERSONAL ASSISTANT | 7844 | 1981-09-28 |   4250 | NULL |    180 |      10 | NULL     | NULL | NULL  |        1 |
+|  6003 | CLIVE       | NULL   | ASSISTANT          | 7698 | 1981-02-20 |   3600 | NULL |    120 |       1 | NULL     | NULL | NULL  |        1 |
+|  7006 | ELI         | NULL   | PERSONAL ASSISTANT | 7521 | 1981-12-03 |   5400 | NULL |     70 |       2 | NULL     | NULL | NULL  |        1 |
+|  7007 | ELY         | NULL   | ASSISTANT          | 7788 | 1981-02-22 |   5250 | NULL |    140 |       2 | NULL     | NULL | NULL  |        1 |
+|  7388 | TROY        | NULL   | ANALYST            | 8009 | 1982-12-09 |   4100 | NULL |    160 |       5 | NULL     | NULL | NULL  |        1 |
+|  7566 | JONES       | NULL   | MANAGER            | 7839 | 1981-04-02 |   2975 | NULL |     20 |       4 | NULL     | NULL | NULL  |        1 |
+|  7698 | BLAKE       | NULL   | MANAGER            | 7839 | 1981-05-01 |   2850 | NULL |     30 |       2 | NULL     | NULL | NULL  |        1 |
+|  7782 | CLARK       | NULL   | MANAGER            | 7839 | 1981-06-09 |   2450 | NULL |     10 |       3 | NULL     | NULL | NULL  |        1 |
+|  7788 | SCOTT       | NULL   | ANALYST            | 7566 | 1982-12-09 |   3000 | NULL |     20 |       2 | NULL     | NULL | NULL  |        1 |
+|  7839 | KING        | NULL   | PRESIDENT          | NULL | 1981-11-17 |   5000 | NULL |     10 |       1 | NULL     | NULL | NULL  |        1 |
+|  7902 | FORD        | NULL   | ANALYST            | 7566 | 1981-12-03 |   3000 | NULL |     20 |    NULL | NULL     | NULL | NULL  |        1 |
+|  8003 | THOMAS      | NULL   | PERSONAL ASSISTANT | 8009 | 1980-12-17 |   4900 | NULL |     50 |    NULL | NULL     | NULL | NULL  |        1 |
+|  8009 | SHELLEY     | NULL   | MANAGER            | 7839 | 1981-12-03 |   6000 | NULL |    180 |    NULL | NULL     | NULL | NULL  |        1 |
++-------+-------------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+25 rows in set (0.237 sec)
+
+
+6. Display the names of all Employees from Department 10 and 20 whose name start with “A” and ends with “B”.
+mysql> SELECT ENAME
+    -> FROM EMP1
+    -> WHERE DEPTNO IN (10, 20)
+    -> AND ENAME LIKE 'A%B';
+Empty set (0.314 sec)
+
+7. Display the details of the employees who have joined on 21-DEC-1990.
+mysql> SELECT *
+    -> FROM EMP1
+    -> WHERE HIRDATE = '1990-12-21';
+Empty set (0.366 sec)
+
+8. Display the Employee Code, Name, Job & Annual Salary for all Employees belonging to Department Number
+
+9. Display the details of the Employees who earn an Annual salary of more than 25000. Sort the records in the
+descending order of Salary.
+mysql> SELECT *
+    -> FROM EMP1
+    -> WHERE SALARY*12 > 25000
+    -> ORDER BY SALARY DESC;
++-------+-------------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+| EMPNO | ENAME       | GENDER | JOB                | MGR  | HIRDATE    | SALARY | COMM | DEPTNO | BONUSID | USERNAME | PWD  | PHONE | isActive |
++-------+-------------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+|  1006 | WILLIAM     | NULL   | SALESMAN           | 7388 | 1980-02-13 |  23700 | 1200 |    160 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1000 | ALICE       | NULL   | MANAGER            | 7839 | 1983-08-12 |   9000 | NULL |    150 |      13 | NULL     | NULL | NULL  |        1 |
+|  1001 | VICTOR      | NULL   | ASSISTANT MANAGER  | 1000 | 1983-12-25 |   8000 | NULL |    150 |      13 | NULL     | NULL | NULL  |        1 |
+|  1004 | ROSE        | NULL   | ASSISTANT MANAGER  | 1000 | 1985-01-30 |   8000 | NULL |    150 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1002 | JACK        | NULL   | ASSISTANT          | 1001 | 1983-12-25 |   7000 | NULL |    150 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1003 | WILLIAM     | NULL   | ASSISTANT          | 1001 | 1984-12-30 |   7000 | NULL |    150 |      13 | NULL     | NULL | NULL  |        1 |
+|  8009 | SHELLEY     | NULL   | MANAGER            | 7839 | 1981-12-03 |   6000 | NULL |    180 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7006 | ELI         | NULL   | PERSONAL ASSISTANT | 7521 | 1981-12-03 |   5400 | NULL |     70 |       2 | NULL     | NULL | NULL  |        1 |
+|  7007 | ELY         | NULL   | ASSISTANT          | 7788 | 1981-02-22 |   5250 | NULL |    140 |       2 | NULL     | NULL | NULL  |        1 |
+|  7839 | KING        | NULL   | PRESIDENT          | NULL | 1981-11-17 |   5000 | NULL |     10 |       1 | NULL     | NULL | NULL  |        1 |
+|  6001 | BRUCE       | NULL   | PERSONAL ASSISTANT | 5002 | 1981-04-02 |   4975 | NULL |     80 |       9 | NULL     | NULL | NULL  |        1 |
+|  8003 | THOMAS      | NULL   | PERSONAL ASSISTANT | 8009 | 1980-12-17 |   4900 | NULL |     50 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1007 | MATTHEW     | NULL   | SALESMAN           | 1005 | 1980-02-28 |   4700 | 1200 |    160 |      13 | NULL     | NULL | NULL  |        1 |
+|  5001 | AARON       | NULL   | SALESMAN           | 7902 | 1981-11-17 |   4500 | 1200 |     60 |       6 | NULL     | NULL | NULL  |        1 |
+|  6002 | CHRISTOPHER | NULL   | PERSONAL ASSISTANT | 7844 | 1981-09-28 |   4250 | NULL |    180 |      10 | NULL     | NULL | NULL  |        1 |
+|  7388 | TROY        | NULL   | ANALYST            | 8009 | 1982-12-09 |   4100 | NULL |    160 |       5 | NULL     | NULL | NULL  |        1 |
+|  6003 | CLIVE       | NULL   | ASSISTANT          | 7698 | 1981-02-20 |   3600 | NULL |    120 |       1 | NULL     | NULL | NULL  |        1 |
+|  1005 | KATE        | NULL   | ASSISTANT ANALYST  | 7388 | 1985-01-30 |   3000 | NULL |    160 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7788 | SCOTT       | NULL   | ANALYST            | 7566 | 1982-12-09 |   3000 | NULL |     20 |       2 | NULL     | NULL | NULL  |        1 |
+|  7902 | FORD        | NULL   | ANALYST            | 7566 | 1981-12-03 |   3000 | NULL |     20 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7566 | JONES       | NULL   | MANAGER            | 7839 | 1981-04-02 |   2975 | NULL |     20 |       4 | NULL     | NULL | NULL  |        1 |
+|  5002 | ALEXANDER   | NULL   | MANAGER            | 7369 | 1981-05-01 |   2950 | NULL |     70 |       7 | NULL     | NULL | NULL  |        1 |
+|  7698 | BLAKE       | NULL   | MANAGER            | 7839 | 1981-05-01 |   2850 | NULL |     30 |       2 | NULL     | NULL | NULL  |        1 |
+|  7782 | CLARK       | NULL   | MANAGER            | 7839 | 1981-06-09 |   2450 | NULL |     10 |       3 | NULL     | NULL | NULL  |        1 |
+|  5003 | BROOKE      | NULL   | CLERK              | 5002 | 1981-06-09 |   2222 | NULL |    100 |       8 | NULL     | NULL | NULL  |        1 |
++-------+-------------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+25 rows in set (0.070 sec)
+
+
+10. Display the names of Employees whose names contain the character “F”.
+mysql> SELECT ENAME
+    -> FROM EMP1
+    -> WHERE ENAME LIKE '%F%';
++-------+
+| ENAME |
++-------+
+| FORD  |
++-------+
+1 row in set (0.010 sec)
+
+11. Display the Employee Code, Name, Job & Annual Salary for all Employees belonging to Department Number
+mysql> SELECT DEPTNO, DNAME
+    -> FROM DEPT
+    -> ORDER BY DNAME DESC;
+Empty set (0.330 sec)
+
+12. Display the details of the Employees who earn an Annual salary of more than 25000. Sort the records in the
+descending order of Salary.
+mysql> SELECT ENAME, EMPNO, JOB, SALARY
+    -> FROM EMP1
+    -> WHERE SALARY BETWEEN 1000 AND 2000;
++---------+-------+-----------+--------+
+| ENAME   | EMPNO | JOB       | SALARY |
++---------+-------+-----------+--------+
+| DIRK    |  7005 | ASSISTANT |   1500 |
+| ALLEN   |  7499 | SALESMAN  |   1600 |
+| WARD    |  7521 | SALESMAN  |   1250 |
+| MARTIN  |  7654 | SALESMAN  |   1250 |
+| TURNER  |  7844 | SALESMAN  |   1500 |
+| ADAMS   |  7876 | CLERK     |   1100 |
+| STEPHEN |  7877 | ASSISTANT |   1100 |
+| MILLER  |  7934 | CLERK     |   1300 |
++---------+-------+-----------+--------+
+8 rows in set (0.286 sec)
+
+13. Display the names of Employees whose names contain the character “F”.
+
+14. Display the Names and Numbers of all Departments in the descending order of the Department Names.
+15. Display the Name, Employee Number, Designation and Salary of those Employees who earn a monthly salary
+of not less than 1000 and not more than 2000.
+16. Find out the Bonus (Bonus 1.1% of Annual Salary) that every person will receive at the end of the year.
+mysql> SELECT ENAME, SALARY*12*0.011 AS BONUS
+    -> FROM EMP1;
++-------------+----------+
+| ENAME       | BONUS    |
++-------------+----------+
+| ALICE       | 1188.000 |
+| VICTOR      | 1056.000 |
+| JACK        |  924.000 |
+| WILLIAM     |  924.000 |
+| ROSE        | 1056.000 |
+| KATE        |  396.000 |
+| WILLIAM     | 3128.400 |
+| MATTHEW     |  620.400 |
+| AARON       |  594.000 |
+| ALEXANDER   |  389.400 |
+| BROOKE      |  293.304 |
+| BRUCE       |  656.700 |
+| CHRISTOPHER |  561.000 |
+| CLIVE       |  475.200 |
+| DIRK        |  198.000 |
+| ELI         |  712.800 |
+| ELY         |  693.000 |
+| SMITH       |  105.600 |
+| TROY        |  541.200 |
+| ALLEN       |  211.200 |
+| WARD        |  165.000 |
+| JONES       |  392.700 |
+| MARTIN      |  165.000 |
+| BLAKE       |  376.200 |
+| CLARK       |  323.400 |
+| SCOTT       |  396.000 |
+| KING        |  660.000 |
+| TURNER      |  198.000 |
+| ADAMS       |  145.200 |
+| STEPHEN     |  145.200 |
+| JAMES       |  125.400 |
+| FORD        |  396.000 |
+| MILLER      |  171.600 |
+| THOMAS      |  646.800 |
+| SHELLEY     |  792.000 |
++-------------+----------+
+35 rows in set (0.296 sec)
+
+17. Display the Name, Job and Dept No. of all the Employees who either work in Department 30 or in Department
+40.
+mysql> SELECT ENAME, JOB, DEPTNO
+    -> FROM EMP1
+    -> WHERE DEPTNO IN (30, 40);
++--------+----------+--------+
+| ENAME  | JOB      | DEPTNO |
++--------+----------+--------+
+| ALLEN  | SALESMAN |     30 |
+| WARD   | SALESMAN |     30 |
+| MARTIN | SALESMAN |     30 |
+| BLAKE  | MANAGER  |     30 |
+| TURNER | SALESMAN |     30 |
+| JAMES  | CLERK    |     30 |
++--------+----------+--------+
+6 rows in set (0.300 sec)
+
+18. Display the Employee Number, Name for Clerks and Managers who’s Salary is more than 1500.
+mysql> SELECT EMPNO, ENAME
+    -> FROM EMP1
+    -> WHERE JOB IN ('CLERK', 'MANAGER')
+    -> AND SALARY > 1500;
++-------+-----------+
+| EMPNO | ENAME     |
++-------+-----------+
+|  1000 | ALICE     |
+|  5002 | ALEXANDER |
+|  5003 | BROOKE    |
+|  7566 | JONES     |
+|  7698 | BLAKE     |
+|  7782 | CLARK     |
+|  8009 | SHELLEY   |
++-------+-----------+
+7 rows in set (0.291 sec)
+
+19. Display the Name, Annual Salary and Commission as “Commission Earned” of all employees whose monthly
+salary is greater than their Commission. The output should be in decreasing order of salary. If two or more
+employees have same salary, then sort them by name within the highest order of salary.
+mysql> SELECT ENAME, SALARY*12 AS ANNUAL_SALARY, COMM AS "COMMISSION FAILED"
+    -> FROM EMP1
+    -> WHERE SALARY > IFNULL(COMM, 0)
+    -> ORDER BY SALARY DESC, ENAME;
++-------------+---------------+-------------------+
+| ENAME       | ANNUAL_SALARY | COMMISSION FAILED |
++-------------+---------------+-------------------+
+| WILLIAM     |        284400 |              1200 |
+| ALICE       |        108000 |              NULL |
+| ROSE        |         96000 |              NULL |
+| VICTOR      |         96000 |              NULL |
+| JACK        |         84000 |              NULL |
+| WILLIAM     |         84000 |              NULL |
+| SHELLEY     |         72000 |              NULL |
+| ELI         |         64800 |              NULL |
+| ELY         |         63000 |              NULL |
+| KING        |         60000 |              NULL |
+| BRUCE       |         59700 |              NULL |
+| THOMAS      |         58800 |              NULL |
+| MATTHEW     |         56400 |              1200 |
+| AARON       |         54000 |              1200 |
+| CHRISTOPHER |         51000 |              NULL |
+| TROY        |         49200 |              NULL |
+| CLIVE       |         43200 |              NULL |
+| FORD        |         36000 |              NULL |
+| KATE        |         36000 |              NULL |
+| SCOTT       |         36000 |              NULL |
+| JONES       |         35700 |              NULL |
+| ALEXANDER   |         35400 |              NULL |
+| BLAKE       |         34200 |              NULL |
+| CLARK       |         29400 |              NULL |
+| BROOKE      |         26664 |              NULL |
+| ALLEN       |         19200 |               300 |
+| DIRK        |         18000 |              NULL |
+| TURNER      |         18000 |                 0 |
+| MILLER      |         15600 |              NULL |
+| WARD        |         15000 |               500 |
+| ADAMS       |         13200 |              NULL |
+| STEPHEN     |         13200 |              NULL |
+| JAMES       |         11400 |              NULL |
+| SMITH       |          9600 |              NULL |
++-------------+---------------+-------------------+
+34 rows in set (0.301 sec)
+
+
+
+20. Display the Name and Job of sales executives or managers whose names end with the letter ‘S’.
+mysql> SELECT ENAME, JOB
+    -> FROM EMP1
+    -> WHERE JOB IN ('SALESMAN', 'MANAGER')
+    -> AND ENAME LIKE '%S';
++-------+---------+
+| ENAME | JOB     |
++-------+---------+
+| JONES | MANAGER |
++-------+---------+
+1 row in set (0.009 sec)
+
+21. Display all the Names of the Employees whose Salary is either more than 1000 but not more than 2200.
+mysql> SELECT ENAME
+    -> FROM EMP1
+    -> WHERE SALARY > 1000 AND SALARY <= 2200;
++---------+
+| ENAME   |
++---------+
+| DIRK    |
+| ALLEN   |
+| WARD    |
+| MARTIN  |
+| TURNER  |
+| ADAMS   |
+| STEPHEN |
+| MILLER  |
++---------+
+8 rows in set (0.009 sec)
+
+
+22. Select Name & Salary of employees who are clerks.
+mysql> SELECT ENAME, SALARY
+    -> FROM EMP1
+    -> WHERE JOB = 'CLERK';
++--------+--------+
+| ENAME  | SALARY |
++--------+--------+
+| BROOKE |   2222 |
+| SMITH  |    800 |
+| ADAMS  |   1100 |
+| JAMES  |    950 |
+| MILLER |   1300 |
++--------+--------+
+5 rows in set (0.010 sec)
+
+23. List the Department Number and Names of all Employees having Salary less than 2500.
+mysql> SELECT DEPTNO, ENAME
+    -> FROM EMP1
+    -> WHERE SALARY < 2500;
++--------+---------+
+| DEPTNO | ENAME   |
++--------+---------+
+|    100 | BROOKE  |
+|     60 | DIRK    |
+|     20 | SMITH   |
+|     30 | ALLEN   |
+|     30 | WARD    |
+|     30 | MARTIN  |
+|     10 | CLARK   |
+|     30 | TURNER  |
+|     20 | ADAMS   |
+|    130 | STEPHEN |
+|     30 | JAMES   |
+|     10 | MILLER  |
++--------+---------+
+12 rows in set (0.009 sec)
+
+24. List the Employee Number and the Name of the President.
+mysql> SELECT EMPNO, ENAME
+    -> FROM EMP1
+    -> WHERE JOB = 'PRESIDENT';
++-------+-------+
+| EMPNO | ENAME |
++-------+-------+
+|  7839 | KING  |
++-------+-------+
+1 row in set (0.012 sec)
+
+
+25. Display Names whose job is either Clerk or Analyst or Salesman.
+mysql> SELECT ENAME
+    -> FROM EMP1
+    -> WHERE JOB IN ('CLERK', 'ANALYST', 'SALESMAN');
++---------+
+| ENAME   |
++---------+
+| WILLIAM |
+| MATTHEW |
+| AARON   |
+| BROOKE  |
+| SMITH   |
+| TROY    |
+| ALLEN   |
+| WARD    |
+| MARTIN  |
+| SCOTT   |
+| TURNER  |
+| ADAMS   |
+| JAMES   |
+| FORD    |
+| MILLER  |
++---------+
+15 rows in set (0.010 sec)
+
+26. List the Employees whose names start with ‘B’ or ‘M’
+mysql> SELECT * FROM EMP1
+    -> WHERE ENAME LIKE 'B%' OR ENAME LIKE 'M%';
++-------+---------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+| EMPNO | ENAME   | GENDER | JOB                | MGR  | HIRDATE    | SALARY | COMM | DEPTNO | BONUSID | USERNAME | PWD  | PHONE | isActive |
++-------+---------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+|  1007 | MATTHEW | NULL   | SALESMAN           | 1005 | 1980-02-28 |   4700 | 1200 |    160 |      13 | NULL     | NULL | NULL  |        1 |
+|  5003 | BROOKE  | NULL   | CLERK              | 5002 | 1981-06-09 |   2222 | NULL |    100 |       8 | NULL     | NULL | NULL  |        1 |
+|  6001 | BRUCE   | NULL   | PERSONAL ASSISTANT | 5002 | 1981-04-02 |   4975 | NULL |     80 |       9 | NULL     | NULL | NULL  |        1 |
+|  7654 | MARTIN  | NULL   | SALESMAN           | 7698 | 1981-09-28 |   1250 | 1400 |     30 |       2 | NULL     | NULL | NULL  |        1 |
+|  7698 | BLAKE   | NULL   | MANAGER            | 7839 | 1981-05-01 |   2850 | NULL |     30 |       2 | NULL     | NULL | NULL  |        1 |
+|  7934 | MILLER  | NULL   | CLERK              | 7782 | 1982-01-23 |   1300 | NULL |     10 |       4 | NULL     | NULL | NULL  |        1 |
++-------+---------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+6 rows in set (0.010 sec)
+
+
+27. Give a list of Employees sorted in alphabetic order of Names.
+mysql> SELECT * FROM EMP1
+    -> ORDER BY ENAME;
++-------+-------------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+| EMPNO | ENAME       | GENDER | JOB                | MGR  | HIRDATE    | SALARY | COMM | DEPTNO | BONUSID | USERNAME | PWD  | PHONE | isActive |
++-------+-------------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+|  5001 | AARON       | NULL   | SALESMAN           | 7902 | 1981-11-17 |   4500 | 1200 |     60 |       6 | NULL     | NULL | NULL  |        1 |
+|  7876 | ADAMS       | NULL   | CLERK              | 7788 | 1983-01-12 |   1100 | NULL |     20 |       3 | NULL     | NULL | NULL  |        1 |
+|  5002 | ALEXANDER   | NULL   | MANAGER            | 7369 | 1981-05-01 |   2950 | NULL |     70 |       7 | NULL     | NULL | NULL  |        1 |
+|  1000 | ALICE       | NULL   | MANAGER            | 7839 | 1983-08-12 |   9000 | NULL |    150 |      13 | NULL     | NULL | NULL  |        1 |
+|  7499 | ALLEN       | NULL   | SALESMAN           | 7698 | 1981-02-20 |   1600 |  300 |     30 |       5 | NULL     | NULL | NULL  |        1 |
+|  7698 | BLAKE       | NULL   | MANAGER            | 7839 | 1981-05-01 |   2850 | NULL |     30 |       2 | NULL     | NULL | NULL  |        1 |
+|  5003 | BROOKE      | NULL   | CLERK              | 5002 | 1981-06-09 |   2222 | NULL |    100 |       8 | NULL     | NULL | NULL  |        1 |
+|  6001 | BRUCE       | NULL   | PERSONAL ASSISTANT | 5002 | 1981-04-02 |   4975 | NULL |     80 |       9 | NULL     | NULL | NULL  |        1 |
+|  6002 | CHRISTOPHER | NULL   | PERSONAL ASSISTANT | 7844 | 1981-09-28 |   4250 | NULL |    180 |      10 | NULL     | NULL | NULL  |        1 |
+|  7782 | CLARK       | NULL   | MANAGER            | 7839 | 1981-06-09 |   2450 | NULL |     10 |       3 | NULL     | NULL | NULL  |        1 |
+|  6003 | CLIVE       | NULL   | ASSISTANT          | 7698 | 1981-02-20 |   3600 | NULL |    120 |       1 | NULL     | NULL | NULL  |        1 |
+|  7005 | DIRK        | NULL   | ASSISTANT          | 7698 | 1981-09-08 |   1500 | NULL |     60 |      10 | NULL     | NULL | NULL  |        1 |
+|  7006 | ELI         | NULL   | PERSONAL ASSISTANT | 7521 | 1981-12-03 |   5400 | NULL |     70 |       2 | NULL     | NULL | NULL  |        1 |
+|  7007 | ELY         | NULL   | ASSISTANT          | 7788 | 1981-02-22 |   5250 | NULL |    140 |       2 | NULL     | NULL | NULL  |        1 |
+|  7902 | FORD        | NULL   | ANALYST            | 7566 | 1981-12-03 |   3000 | NULL |     20 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1002 | JACK        | NULL   | ASSISTANT          | 1001 | 1983-12-25 |   7000 | NULL |    150 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7900 | JAMES       | NULL   | CLERK              | 7698 | 1981-12-03 |    950 | NULL |     30 |       3 | NULL     | NULL | NULL  |        1 |
+|  7566 | JONES       | NULL   | MANAGER            | 7839 | 1981-04-02 |   2975 | NULL |     20 |       4 | NULL     | NULL | NULL  |        1 |
+|  1005 | KATE        | NULL   | ASSISTANT ANALYST  | 7388 | 1985-01-30 |   3000 | NULL |    160 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7839 | KING        | NULL   | PRESIDENT          | NULL | 1981-11-17 |   5000 | NULL |     10 |       1 | NULL     | NULL | NULL  |        1 |
+|  7654 | MARTIN      | NULL   | SALESMAN           | 7698 | 1981-09-28 |   1250 | 1400 |     30 |       2 | NULL     | NULL | NULL  |        1 |
+|  1007 | MATTHEW     | NULL   | SALESMAN           | 1005 | 1980-02-28 |   4700 | 1200 |    160 |      13 | NULL     | NULL | NULL  |        1 |
+|  7934 | MILLER      | NULL   | CLERK              | 7782 | 1982-01-23 |   1300 | NULL |     10 |       4 | NULL     | NULL | NULL  |        1 |
+|  1004 | ROSE        | NULL   | ASSISTANT MANAGER  | 1000 | 1985-01-30 |   8000 | NULL |    150 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7788 | SCOTT       | NULL   | ANALYST            | 7566 | 1982-12-09 |   3000 | NULL |     20 |       2 | NULL     | NULL | NULL  |        1 |
+|  8009 | SHELLEY     | NULL   | MANAGER            | 7839 | 1981-12-03 |   6000 | NULL |    180 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7369 | SMITH       | NULL   | CLERK              | 7902 | 1980-12-17 |    800 | NULL |     20 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7877 | STEPHEN     | NULL   | ASSISTANT          | 7788 | 1983-01-12 |   1100 | NULL |    130 |       5 | NULL     | NULL | NULL  |        1 |
+|  8003 | THOMAS      | NULL   | PERSONAL ASSISTANT | 8009 | 1980-12-17 |   4900 | NULL |     50 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7388 | TROY        | NULL   | ANALYST            | 8009 | 1982-12-09 |   4100 | NULL |    160 |       5 | NULL     | NULL | NULL  |        1 |
+|  7844 | TURNER      | NULL   | SALESMAN           | 7698 | 1981-09-08 |   1500 |    0 |     30 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1001 | VICTOR      | NULL   | ASSISTANT MANAGER  | 1000 | 1983-12-25 |   8000 | NULL |    150 |      13 | NULL     | NULL | NULL  |        1 |
+|  7521 | WARD        | NULL   | SALESMAN           | 7698 | 1981-02-22 |   1250 |  500 |     30 |       1 | NULL     | NULL | NULL  |        1 |
+|  1003 | WILLIAM     | NULL   | ASSISTANT          | 1001 | 1984-12-30 |   7000 | NULL |    150 |      13 | NULL     | NULL | NULL  |        1 |
+|  1006 | WILLIAM     | NULL   | SALESMAN           | 7388 | 1980-02-13 |  23700 | 1200 |    160 |    NULL | NULL     | NULL | NULL  |        1 |
++-------+-------------+--------+--------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+35 rows in set (0.012 sec)
+
+28. Find out details of Employees where Commission is greater than 5% of the Salary.
+mysql> SELECT * FROM EMP1
+    -> WHERE COMM > SALARY*0.05;
++-------+---------+--------+----------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+| EMPNO | ENAME   | GENDER | JOB      | MGR  | HIRDATE    | SALARY | COMM | DEPTNO | BONUSID | USERNAME | PWD  | PHONE | isActive |
++-------+---------+--------+----------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+|  1006 | WILLIAM | NULL   | SALESMAN | 7388 | 1980-02-13 |  23700 | 1200 |    160 |    NULL | NULL     | NULL | NULL  |        1 |
+|  1007 | MATTHEW | NULL   | SALESMAN | 1005 | 1980-02-28 |   4700 | 1200 |    160 |      13 | NULL     | NULL | NULL  |        1 |
+|  5001 | AARON   | NULL   | SALESMAN | 7902 | 1981-11-17 |   4500 | 1200 |     60 |       6 | NULL     | NULL | NULL  |        1 |
+|  7499 | ALLEN   | NULL   | SALESMAN | 7698 | 1981-02-20 |   1600 |  300 |     30 |       5 | NULL     | NULL | NULL  |        1 |
+|  7521 | WARD    | NULL   | SALESMAN | 7698 | 1981-02-22 |   1250 |  500 |     30 |       1 | NULL     | NULL | NULL  |        1 |
+|  7654 | MARTIN  | NULL   | SALESMAN | 7698 | 1981-09-28 |   1250 | 1400 |     30 |       2 | NULL     | NULL | NULL  |        1 |
++-------+---------+--------+----------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+6 rows in set (0.012 sec)
+
+29. Create query to display the Employee Name and Department Number for empno 7566.
+mysql> SELECT ENAME, DEPTNO
+    -> FROM EMP1
+    -> WHERE EMPNO = 7566;
++-------+--------+
+| ENAME | DEPTNO |
++-------+--------+
+| JONES |     20 |
++-------+--------+
+1 row in set (0.009 sec)
+
+30. List the Name and Salary of Employees who earn more than $1500 and are in Department 10 or 30. Label the
+columns NAME and Monthly Salary, respectively.
+mysql> SELECT ENAME AS "NAME", SALARY AS "MONTHLY SALARY"
+    -> FROM EMP1
+    -> WHERE SALARY > 1500 AND DEPTNO IN (10, 30);
++-------+----------------+
+| NAME  | MONTHLY SALARY |
++-------+----------------+
+| CLARK |           2450 |
+| KING  |           5000 |
+| ALLEN |           1600 |
+| BLAKE |           2850 |
++-------+----------------+
+4 rows in set (0.011 sec)
+
+31. Display the Name, Salary and Commission for all Employees who earn Commission. Sort data in descending
+order of Salary and Commission.
+mysql> SELECT ENAME, SALARY, COMM
+    -> FROM EMP1
+    -> WHERE COMM IS NOT NULL
+    -> ORDER BY SALARY DESC, COMM DESC;
++---------+--------+------+
+| ENAME   | SALARY | COMM |
++---------+--------+------+
+| WILLIAM |  23700 | 1200 |
+| MATTHEW |   4700 | 1200 |
+| AARON   |   4500 | 1200 |
+| ALLEN   |   1600 |  300 |
+| TURNER  |   1500 |    0 |
+| MARTIN  |   1250 | 1400 |
+| WARD    |   1250 |  500 |
++---------+--------+------+
+7 rows in set (0.010 sec)
+
+32. Display the Names of all Employees with the third letter of their Name as an “A”.
+mysql> SELECT ENAME
+    -> FROM EMP1
+    -> WHERE ENAME LIKE '__A%';
++-------+
+| ENAME |
++-------+
+| BLAKE |
+| CLARK |
+| ADAMS |
++-------+
+
+33. Display the name of all Employees that have two ‘LS’ in the name and are in department 30 or their manager
+is 7782.
+mysql> SELECT ENAME
+    -> FROM EMP1
+    -> WHERE(ENAME LIKE '%LS%LS' AND DEPTNO=30)
+    -> OR MGR = 7782;
++--------+
+| ENAME  |
++--------+
+| MILLER |
++--------+
+1 row in set (0.396 sec)
+
+34. Display Name, Job & Sal for all Emp whose job is Clerk or Analyst and their Sal is not equal to 1000, 3000 &
+5000.
+mysql> SELECT ENAME, JOB, SALARY
+    -> FROM EMP1
+    -> WHERE JOB IN ('CLERK','ANALYST')
+    -> AND SALARY NOT IN (1000, 3000, 5000);
++--------+---------+--------+
+| ENAME  | JOB     | SALARY |
++--------+---------+--------+
+| BROOKE | CLERK   |   2222 |
+| SMITH  | CLERK   |    800 |
+| TROY   | ANALYST |   4100 |
+| ADAMS  | CLERK   |   1100 |
+| JAMES  | CLERK   |    950 |
+| MILLER | CLERK   |   1300 |
++--------+---------+--------+
+6 rows in set (0.011 sec)
+
+
+35. Display the Name, Sal & Comm for all Employees whose Comm amount is greater than their Sal increased by
+10%.
+mysql> SELECT ENAME, SALARY, COMM
+    -> FROM EMP1
+    -> WHERE COMM > SALARY * 1.10;
++--------+--------+------+
+| ENAME  | SALARY | COMM |
++--------+--------+------+
+| MARTIN |   1250 | 1400 |
++--------+--------+------+
+1 row in set (0.010 sec)
+
+36. Display Employee Number, Name, Gross Salary (Bonus + Salary*12 + Commission) for all those Employees
+who belong to Department Number 20 or 30 in the ascending order of Employee Numbers.
+mysql> SELECT EMPNO, ENAME, (SALARY*12 + IFNULL(COMM,0) + IFNULL(BONUSID, 0)) AS GROSS_SALARY
+    -> FROM EMP1
+    -> WHERE DEPTNO IN (20, 30)
+    -> ORDER BY EMPNO;
++-------+--------+--------------+
+| EMPNO | ENAME  | GROSS_SALARY |
++-------+--------+--------------+
+|  7369 | SMITH  |         9600 |
+|  7499 | ALLEN  |        19505 |
+|  7521 | WARD   |        15501 |
+|  7566 | JONES  |        35704 |
+|  7654 | MARTIN |        16402 |
+|  7698 | BLAKE  |        34202 |
+|  7788 | SCOTT  |        36002 |
+|  7844 | TURNER |        18000 |
+|  7876 | ADAMS  |        13203 |
+|  7900 | JAMES  |        11403 |
+|  7902 | FORD   |        36000 |
++-------+--------+--------------+
+11 rows in set (0.292 sec)
+
+
+37. Display the Employee Number, Name, Salary, and Salary Increase by 15% expressed as a whole number.
+Label the column New Salary.
+mysql> SELECT EMPNO, ENAME, SALARY, ROUND(SALARY*1.15) AS "NEW SALARY"
+    -> FROM EMP1;
++-------+-------------+--------+------------+
+| EMPNO | ENAME       | SALARY | NEW SALARY |
++-------+-------------+--------+------------+
+|  1000 | ALICE       |   9000 |      10350 |
+|  1001 | VICTOR      |   8000 |       9200 |
+|  1002 | JACK        |   7000 |       8050 |
+|  1003 | WILLIAM     |   7000 |       8050 |
+|  1004 | ROSE        |   8000 |       9200 |
+|  1005 | KATE        |   3000 |       3450 |
+|  1006 | WILLIAM     |  23700 |      27255 |
+|  1007 | MATTHEW     |   4700 |       5405 |
+|  5001 | AARON       |   4500 |       5175 |
+|  5002 | ALEXANDER   |   2950 |       3393 |
+|  5003 | BROOKE      |   2222 |       2555 |
+|  6001 | BRUCE       |   4975 |       5721 |
+|  6002 | CHRISTOPHER |   4250 |       4888 |
+|  6003 | CLIVE       |   3600 |       4140 |
+|  7005 | DIRK        |   1500 |       1725 |
+|  7006 | ELI         |   5400 |       6210 |
+|  7007 | ELY         |   5250 |       6038 |
+|  7369 | SMITH       |    800 |        920 |
+|  7388 | TROY        |   4100 |       4715 |
+|  7499 | ALLEN       |   1600 |       1840 |
+|  7521 | WARD        |   1250 |       1438 |
+|  7566 | JONES       |   2975 |       3421 |
+|  7654 | MARTIN      |   1250 |       1438 |
+|  7698 | BLAKE       |   2850 |       3278 |
+|  7782 | CLARK       |   2450 |       2818 |
+|  7788 | SCOTT       |   3000 |       3450 |
+|  7839 | KING        |   5000 |       5750 |
+|  7844 | TURNER      |   1500 |       1725 |
+|  7876 | ADAMS       |   1100 |       1265 |
+|  7877 | STEPHEN     |   1100 |       1265 |
+|  7900 | JAMES       |    950 |       1093 |
+|  7902 | FORD        |   3000 |       3450 |
+|  7934 | MILLER      |   1300 |       1495 |
+|  8003 | THOMAS      |   4900 |       5635 |
+|  8009 | SHELLEY     |   6000 |       6900 |
++-------+-------------+--------+------------+
+35 rows in set (0.057 sec)
+
+38. Write a query that will display the employees name with the first letter capitalized an other letters
+lowercase and the length of their name, for all employees whose name starts with J, A or M.
+mysql> SELECT
+    -> CONCAT(UPPER(LEFT(ENAME, 1)), LOWER(SUBSTRING(ENAME, 2))) AS ENAME, LENGTH(ENAME)
+    -> FROM EMP1
+    -> WHERE ENAME LIKE 'J%' OR ENAME LIKE 'A%' OR ENAME LIKE 'M%';
++-----------+---------------+
+| ENAME     | LENGTH(ENAME) |
++-----------+---------------+
+| Alice     |             5 |
+| Jack      |             4 |
+| Matthew   |             7 |
+| Aaron     |             5 |
+| Alexander |             9 |
+| Allen     |             5 |
+| Jones     |             5 |
+| Martin    |             6 |
+| Adams     |             5 |
+| James     |             5 |
+| Miller    |             6 |
++-----------+---------------+
+11 rows in set (0.366 sec)
+
+39. Create a query that will display the Employees name and commission amount. If the employee does not
+earn commission, put “No Commission”.
+mysql> SELECT ENAME, IFNULL(CAST(COMM AS CHAR), 'NO COMMISSION') AS COMMISSION
+    -> FROM EMP1;
++-------------+---------------+
+| ENAME       | COMMISSION    |
++-------------+---------------+
+| ALICE       | NO COMMISSION |
+| VICTOR      | NO COMMISSION |
+| JACK        | NO COMMISSION |
+| WILLIAM     | NO COMMISSION |
+| ROSE        | NO COMMISSION |
+| KATE        | NO COMMISSION |
+| WILLIAM     | 1200          |
+| MATTHEW     | 1200          |
+| AARON       | 1200          |
+| ALEXANDER   | NO COMMISSION |
+| BROOKE      | NO COMMISSION |
+| BRUCE       | NO COMMISSION |
+| CHRISTOPHER | NO COMMISSION |
+| CLIVE       | NO COMMISSION |
+| DIRK        | NO COMMISSION |
+| ELI         | NO COMMISSION |
+| ELY         | NO COMMISSION |
+| SMITH       | NO COMMISSION |
+| TROY        | NO COMMISSION |
+| ALLEN       | 300           |
+| WARD        | 500           |
+| JONES       | NO COMMISSION |
+| MARTIN      | 1400          |
+| BLAKE       | NO COMMISSION |
+| CLARK       | NO COMMISSION |
+| SCOTT       | NO COMMISSION |
+| KING        | NO COMMISSION |
+| TURNER      | 0             |
+| ADAMS       | NO COMMISSION |
+| STEPHEN     | NO COMMISSION |
+| JAMES       | NO COMMISSION |
+| FORD        | NO COMMISSION |
+| MILLER      | NO COMMISSION |
+| THOMAS      | NO COMMISSION |
+| SHELLEY     | NO COMMISSION |
++-------------+---------------+
+35 rows in set (0.292 sec)
+
+40. Display Customers Name, Sales Amount approximate Profit Earned (Profit = 8% of Sales Amount) in
+whole numbers.
+
+
+
+41. Using the sales table, you need to report the following
+a.Sales for the first quarter of the year of 1999
+b.Sales for the product SP TENNIS RACKET
+42. Consider the Customer table. The Credit Limit of all the Customers is increased by 25%. Calculate the
+new Credit Limit and display the same along with the Name, Repid and Credit Limit for all the
+Customers. The following should be implemented in the query result set:
+a. The Credit Limit should be expressed as a whole number, prefixed with a $ symbol.
+b. Total length of the new Credit Limit should be 10.
+c. Names of the Customers should be displayed in the title case.
+43. Display the name and the department number of all employees. The department number should be
+displayed in the following manner:
+a. If the department number is 10, display ‘Belongs to Dept. 10’
+b. If 20, display ‘Belongs to the Dept. 20’
+c. Otherwise display ‘Neither 10 nor 20.’
+mysql> SELECT ENAME,
+    -> CASE
+    -> WHEN DEPTNO = 10 THEN 'BELONGS TO DEPT. 10'
+    -> WHEN DEPTNO = 20 THEN 'BELONGS TO DEPT. 20'
+    -> ELSE 'NEITHER 10 OR 20'
+    -> END AS DEPT_STATUS
+    -> FROM EMP1;
++-------------+---------------------+
+| ENAME       | DEPT_STATUS         |
++-------------+---------------------+
+| ALICE       | NEITHER 10 OR 20    |
+| VICTOR      | NEITHER 10 OR 20    |
+| JACK        | NEITHER 10 OR 20    |
+| WILLIAM     | NEITHER 10 OR 20    |
+| ROSE        | NEITHER 10 OR 20    |
+| KATE        | NEITHER 10 OR 20    |
+| WILLIAM     | NEITHER 10 OR 20    |
+| MATTHEW     | NEITHER 10 OR 20    |
+| AARON       | NEITHER 10 OR 20    |
+| ALEXANDER   | NEITHER 10 OR 20    |
+| BROOKE      | NEITHER 10 OR 20    |
+| BRUCE       | NEITHER 10 OR 20    |
+| CHRISTOPHER | NEITHER 10 OR 20    |
+| CLIVE       | NEITHER 10 OR 20    |
+| DIRK        | NEITHER 10 OR 20    |
+| ELI         | NEITHER 10 OR 20    |
+| ELY         | NEITHER 10 OR 20    |
+| SMITH       | BELONGS TO DEPT. 20 |
+| TROY        | NEITHER 10 OR 20    |
+| ALLEN       | NEITHER 10 OR 20    |
+| WARD        | NEITHER 10 OR 20    |
+| JONES       | BELONGS TO DEPT. 20 |
+| MARTIN      | NEITHER 10 OR 20    |
+| BLAKE       | NEITHER 10 OR 20    |
+| CLARK       | BELONGS TO DEPT. 10 |
+| SCOTT       | BELONGS TO DEPT. 20 |
+| KING        | BELONGS TO DEPT. 10 |
+| TURNER      | NEITHER 10 OR 20    |
+| ADAMS       | BELONGS TO DEPT. 20 |
+| STEPHEN     | NEITHER 10 OR 20    |
+| JAMES       | NEITHER 10 OR 20    |
+| FORD        | BELONGS TO DEPT. 20 |
+| MILLER      | BELONGS TO DEPT. 10 |
+| THOMAS      | NEITHER 10 OR 20    |
+| SHELLEY     | NEITHER 10 OR 20    |
++-------------+---------------------+
+35 rows in set (0.012 sec)
+
+44. Display the name, first letter of the name (as Abbreviated Name) and the annual compensation for all
+employees. The following issues should be taken care of:
+a. The annual compensation has to be calculated by adding the salary and the commission earned by
+the employee and multiplying the value by 12.
+b. The first letter of the employee name should be in upper case.
+c. If the employee does not earn any commission, the commission values should be taken as 600.
+mysql> SELECT
+    -> ENAME,
+    -> UPPER(LEFT(ENAME, 1)) AS abbrev,
+    -> ((SALARY + IFNULL(COMM, 600)) * 12) AS ANNUAL_COMP
+    -> FROM EMP1;
++-------------+--------+-------------+
+| ENAME       | abbrev | ANNUAL_COMP |
++-------------+--------+-------------+
+| ALICE       | A      |      115200 |
+| VICTOR      | V      |      103200 |
+| JACK        | J      |       91200 |
+| WILLIAM     | W      |       91200 |
+| ROSE        | R      |      103200 |
+| KATE        | K      |       43200 |
+| WILLIAM     | W      |      298800 |
+| MATTHEW     | M      |       70800 |
+| AARON       | A      |       68400 |
+| ALEXANDER   | A      |       42600 |
+| BROOKE      | B      |       33864 |
+| BRUCE       | B      |       66900 |
+| CHRISTOPHER | C      |       58200 |
+| CLIVE       | C      |       50400 |
+| DIRK        | D      |       25200 |
+| ELI         | E      |       72000 |
+| ELY         | E      |       70200 |
+| SMITH       | S      |       16800 |
+| TROY        | T      |       56400 |
+| ALLEN       | A      |       22800 |
+| WARD        | W      |       21000 |
+| JONES       | J      |       42900 |
+| MARTIN      | M      |       31800 |
+| BLAKE       | B      |       41400 |
+| CLARK       | C      |       36600 |
+| SCOTT       | S      |       43200 |
+| KING        | K      |       67200 |
+| TURNER      | T      |       18000 |
+| ADAMS       | A      |       20400 |
+| STEPHEN     | S      |       20400 |
+| JAMES       | J      |       18600 |
+| FORD        | F      |       43200 |
+| MILLER      | M      |       22800 |
+| THOMAS      | T      |       66000 |
+| SHELLEY     | S      |       79200 |
++-------------+--------+-------------+
+35 rows in set (0.010 sec)
+
+45. Display the Order ID, the Total Value of the Order and the Commission Plan taking into consideration
+
+the following-
+a. If the Commission Plan is A display it as Anonymous
+
+b. If the Commission Plan is B display it as Business
+c. If the Commission Plan is C display it as Casual
+d. If no Commission Plan has been mentioned then display Commission Not Allowed.
+
+
+46. List all the employees who are living in ‘BOSTON’.
+47. List the names of employees who stay in city whose second letter is ‘A’ or ‘H’.
+48. List names of employees who are working in ‘SALES’ department.
+49. Print the name of employees in the ascending order of employee name.
+mysql> SELECT ENAME
+    -> FROM EMP1
+    -> ORDER BY ENAME ASC;
++-------------+
+| ENAME       |
++-------------+
+| AARON       |
+| ADAMS       |
+| ALEXANDER   |
+| ALICE       |
+| ALLEN       |
+| BLAKE       |
+| BROOKE      |
+| BRUCE       |
+| CHRISTOPHER |
+| CLARK       |
+| CLIVE       |
+| DIRK        |
+| ELI         |
+| ELY         |
+| FORD        |
+| JACK        |
+| JAMES       |
+| JONES       |
+| KATE        |
+| KING        |
+| MARTIN      |
+| MATTHEW     |
+| MILLER      |
+| ROSE        |
+| SCOTT       |
+| SHELLEY     |
+| SMITH       |
+| STEPHEN     |
+| THOMAS      |
+| TROY        |
+| TURNER      |
+| VICTOR      |
+| WARD        |
+| WILLIAM     |
+| WILLIAM     |
++-------------+
+35 rows in set (0.290 sec)
+
+50. Print employee information in the descending order of salary.
+mysql> SELECT ENAME
+    -> FROM EMP1
+    -> ORDER BY SALARY DESC;
++-------------+
+| ENAME       |
++-------------+
+| WILLIAM     |
+| ALICE       |
+| VICTOR      |
+| ROSE        |
+| JACK        |
+| WILLIAM     |
+| SHELLEY     |
+| ELI         |
+| ELY         |
+| KING        |
+| BRUCE       |
+| THOMAS      |
+| MATTHEW     |
+| AARON       |
+| CHRISTOPHER |
+| TROY        |
+| CLIVE       |
+| KATE        |
+| SCOTT       |
+| FORD        |
+| JONES       |
+| ALEXANDER   |
+| BLAKE       |
+| CLARK       |
+| BROOKE      |
+| ALLEN       |
+| DIRK        |
+| TURNER      |
+| MILLER      |
+| WARD        |
+| MARTIN      |
+| ADAMS       |
+| STEPHEN     |
+| JAMES       |
+| SMITH       |
++-------------+
+35 rows in set (0.010 sec)
+
+51. Display employee information in ascending order of year.
+mysql> SELECT ENAME
+    -> FROM EMP1
+    -> ORDER BY ENAME ASC;
++-------------+
+| ENAME       |
++-------------+
+| AARON       |
+| ADAMS       |
+| ALEXANDER   |
+| ALICE       |
+| ALLEN       |
+| BLAKE       |
+| BROOKE      |
+| BRUCE       |
+| CHRISTOPHER |
+| CLARK       |
+| CLIVE       |
+| DIRK        |
+| ELI         |
+| ELY         |
+| FORD        |
+| JACK        |
+| JAMES       |
+| JONES       |
+| KATE        |
+| KING        |
+| MARTIN      |
+| MATTHEW     |
+| MILLER      |
+| ROSE        |
+| SCOTT       |
+| SHELLEY     |
+| SMITH       |
+| STEPHEN     |
+| THOMAS      |
+| TROY        |
+| TURNER      |
+| VICTOR      |
+| WARD        |
+| WILLIAM     |
+| WILLIAM     |
++-------------+
+35 rows in set (0.012 sec)
+52. Display job, deptno, names of employee whose name starts with ‘B’ or ‘M’.
+mysql> SELECT JOB, DEPTNO, ENAME
+    -> FROM EMP1
+    -> WHERE ENAME LIKE 'B%' OR ENAME LIKE 'M%';
++--------------------+--------+---------+
+| JOB                | DEPTNO | ENAME   |
++--------------------+--------+---------+
+| SALESMAN           |    160 | MATTHEW |
+| CLERK              |    100 | BROOKE  |
+| PERSONAL ASSISTANT |     80 | BRUCE   |
+| SALESMAN           |     30 | MARTIN  |
+| MANAGER            |     30 | BLAKE   |
+| CLERK              |     10 | MILLER  |
++--------------------+--------+---------+
+6 rows in set (0.031 sec)
+
+53. List the employees whose comm is null and salary does not exceed 3000.
+mysql> SELECT * FROM EMP1
+    -> WHERE COMM IS NULL
+    -> AND SALARY <= 3000;
++-------+-----------+--------+-------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+| EMPNO | ENAME     | GENDER | JOB               | MGR  | HIRDATE    | SALARY | COMM | DEPTNO | BONUSID | USERNAME | PWD  | PHONE | isActive |
++-------+-----------+--------+-------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+|  1005 | KATE      | NULL   | ASSISTANT ANALYST | 7388 | 1985-01-30 |   3000 | NULL |    160 |    NULL | NULL     | NULL | NULL  |        1 |
+|  5002 | ALEXANDER | NULL   | MANAGER           | 7369 | 1981-05-01 |   2950 | NULL |     70 |       7 | NULL     | NULL | NULL  |        1 |
+|  5003 | BROOKE    | NULL   | CLERK             | 5002 | 1981-06-09 |   2222 | NULL |    100 |       8 | NULL     | NULL | NULL  |        1 |
+|  7005 | DIRK      | NULL   | ASSISTANT         | 7698 | 1981-09-08 |   1500 | NULL |     60 |      10 | NULL     | NULL | NULL  |        1 |
+|  7369 | SMITH     | NULL   | CLERK             | 7902 | 1980-12-17 |    800 | NULL |     20 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7566 | JONES     | NULL   | MANAGER           | 7839 | 1981-04-02 |   2975 | NULL |     20 |       4 | NULL     | NULL | NULL  |        1 |
+|  7698 | BLAKE     | NULL   | MANAGER           | 7839 | 1981-05-01 |   2850 | NULL |     30 |       2 | NULL     | NULL | NULL  |        1 |
+|  7782 | CLARK     | NULL   | MANAGER           | 7839 | 1981-06-09 |   2450 | NULL |     10 |       3 | NULL     | NULL | NULL  |        1 |
+|  7788 | SCOTT     | NULL   | ANALYST           | 7566 | 1982-12-09 |   3000 | NULL |     20 |       2 | NULL     | NULL | NULL  |        1 |
+|  7876 | ADAMS     | NULL   | CLERK             | 7788 | 1983-01-12 |   1100 | NULL |     20 |       3 | NULL     | NULL | NULL  |        1 |
+|  7877 | STEPHEN   | NULL   | ASSISTANT         | 7788 | 1983-01-12 |   1100 | NULL |    130 |       5 | NULL     | NULL | NULL  |        1 |
+|  7900 | JAMES     | NULL   | CLERK             | 7698 | 1981-12-03 |    950 | NULL |     30 |       3 | NULL     | NULL | NULL  |        1 |
+|  7902 | FORD      | NULL   | ANALYST           | 7566 | 1981-12-03 |   3000 | NULL |     20 |    NULL | NULL     | NULL | NULL  |        1 |
+|  7934 | MILLER    | NULL   | CLERK             | 7782 | 1982-01-23 |   1300 | NULL |     10 |       4 | NULL     | NULL | NULL  |        1 |
++-------+-----------+--------+-------------------+------+------------+--------+------+--------+---------+----------+------+-------+----------+
+14 rows in set (0.374 sec)

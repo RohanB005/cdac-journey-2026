@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index Page</title>
+    </head>
+    <body>
+        <h2>Welcom</h2>
+        <iframe src="DTAE.HTML" width="300" height="100"></iframe>
+
+        <br><br>
+
+        <a href="datedisplay.html">Date Display</a>
+
+        <br><br>
+
+        <h2>Username Generator</h2>
+        <form>
+            Firstname:<input type="text" id="fname"><br><br>
+            Lastname:<input type="text" id="lname"><br><br>
+            Age:<input type="number" id="age"><br><br>
+            <p id="user"></p>
+        </form>
+        <button onclick="generate()">Generate</button>
+        <script>
+            function generate()
+            {
+                let f = document.getElementById("fname").value;
+                let l = document.getElementById("lname").value;
+                let a = document.getElementById("age").value;
+
+                let username = f.substring(0,2) + l.substring(l.length-2) + a;
+                document.getElementById("user").innerHTML = username.toLowerCase();
+            }
+        </script>
+
+    </body>
+</html>

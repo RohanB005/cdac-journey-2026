@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New User</title>
+    <style>
+        button{
+            border-radius: 5px;
+            background-color: red;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h2>New User Registration</h2>
+
+    <form>
+        <fieldset>
+            <legend>User Details</legend>
+
+            <label for="firstname">Firstname:</label>
+            <input type="text" id="firstname" name="firstname" required minlength="2"><br><br>
+
+            <label for="lastname">Lastname:</label>
+            <input type="text" id="lastname" name="lastname" required minlength="2"><br><br>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required minlength="4"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male" required>Male
+            <input type="radio" name="gender" value="female" required>Female<br><br>
+
+            <label>Known Languages:</label>
+            <input type="checkbox" name="lang">English
+            <input type="checkbox" name="lang">Hindi
+            <input type="checkbox" name="lang">Marathi<br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+            <label for="cpassword">Confirm Password:</label>
+            <input type="cpassword" id="cpassword" name="cpassword" required minlength="6"><br><br>
+            
+        </fieldset>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+</html>

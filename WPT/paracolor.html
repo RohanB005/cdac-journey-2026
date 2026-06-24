@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change Color</title>
+        <script>
+            function changeColor()
+            {
+                var c = document.getElementById("color").value;
+
+                document.getElementById("p1").style.color = c;
+                document.getElementById("p1").style.fontWeight = "bold";
+
+                document.getElementById("p2").style.color = c;
+                document.getElementById("p2").style.fontWeight = "bold";
+
+                document.getElementById("p3").style.color = c;
+                document.getElementById("p3").style.fontWeight = "bold";
+
+                document.getElementById("p4").style.color = c;
+                document.getElementById("p4").style.fontWeight = "bold";
+            }
+        </script>
+    </head>
+    <body>
+        <p id="p1">This is Paragraph 1</p>
+        <p id="p2">This is Paragraph 2</p>
+        <p id="p3">This is Paragraph 3</p>
+        <p id="p4">This is Paragraph 4</p>
+        <br>
+
+        <label>Select Color: </label>
+        <input type="color" id="color">
+
+        <br><br>
+
+        <button onclick="changeColor()">Change Color</button>
+    </body>
+</html>

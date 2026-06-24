@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Array</title>
+    <script>
+        let d = [12,34,25,67,89,45,23,56,78,90];
+        let evenArray = [];
+        let oddArray = [];
+        for(var i=0;i<d.length;i++)
+    {
+        if(d[i]%2==0)
+        {
+            evenArray.push(d[i]);
+        }
+        else
+        {
+            oddArray.push(d[i]);
+        }
+    }
+    d.sort(function(a, b){return a - b});
+    </script>
+    </head>
+    <body>
+        <h1>Array</h1>
+        <p id="even"></p>
+        <p id="odd"></p>
+        <p id="sorted"></p>
+        <script>
+            document.getElementById("even").innerHTML = "Even Numbers: " + evenArray;
+            document.getElementById("odd").innerHTML = "Odd Numbers: " + oddArray;
+            document.getElementById("sorted").innerHTML = "Sorted Array: " + d;
+        </script>
+    </body>
+</html>

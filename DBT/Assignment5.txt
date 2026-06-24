@@ -1,0 +1,95 @@
+35. Find the total sales amount
+mysql> SELECT SUM(amount) AS total_sales
+    -> FROM SALES;
++-------------+
+| total_sales |
++-------------+
+|    95263.00 |
++-------------+
+1 row in set (0.103 sec)
+
+
+36. Find the customer-wise lowest and highest sales amount
+mysql> SELECT CUSTNAME,
+    -> MIN(AMOUNT) AS LOWEST_SALES,
+    -> MAX(AMOUNT) AS HIGHEST_SALES
+    -> FROM SALES
+    -> GROUP BY CUSTNAME;
++----------------+--------------+---------------+
+| CUSTNAME       | LOWEST_SALES | HIGHEST_SALES |
++----------------+--------------+---------------+
+| JOCKSPORTS     |        50.00 |       2400.00 |
+| TKB SPORT SHOP |         8.40 |         58.00 |
+| VOLLYRITE      |      2300.50 |      16569.00 |
+| JUST TENNIS    |        24.00 |        450.00 |
+| EVERY MOUNTAIN |        24.00 |       3000.00 |
+| K + T SPORTS   |       340.00 |      29000.00 |
+| SHAPE UP       |         2.40 |        440.00 |
+| WOMENS SPORTS  |       180.00 |        280.00 |
+| NORTH WOODS    |       440.00 |       4800.00 |
++----------------+--------------+---------------+
+9 rows in set (0.106 sec)
+
+37. Find product-wise lowest, highest and total sales.
+mysql> SELECT PRODNAME,
+    -> MIN(AMOUNT) AS LOWEST_SALES,
+    -> MAX(AMOUNT) AS HIGHTS_SALES,
+    -> SUM(AMOUNT) AS TOTAL_SALES
+    -> FROM SALES
+    -> GROUP BY PRODNAME;
++-------------------------+--------------+--------------+-------------+
+| PRODNAME                | LOWEST_SALES | HIGHTS_SALES | TOTAL_SALES |
++-------------------------+--------------+--------------+-------------+
+| RH: "GUIDE TO TENNIS"   |        34.00 |      1703.40 |     2417.40 |
+| ACE TENNIS RACKET II    |        84.00 |      4500.00 |     8809.50 |
+| ACE TENNIS BALLS-3 PACK |         8.40 |      3306.00 |     5426.90 |
+| ACE TENNIS NET          |        50.00 |     29000.00 |    29398.00 |
+| ACE TENNIS RACKET I     |        35.00 |     16569.00 |    22144.00 |
+| SB ENERGY BAR-6 PACK    |         2.40 |      2400.00 |     3586.40 |
+| ACE TENNIS BALLS-6 PACK |       250.00 |      5600.00 |    10056.80 |
+| SP TENNIS RACKET        |        24.00 |      4800.00 |     7224.00 |
+| SP JUNIOR RACKET        |      1500.00 |      2500.00 |     4000.00 |
+| SB VITA SNACK-6 PACK    |       400.00 |      1200.00 |     2200.00 |
++-------------------------+--------------+--------------+-------------+
+10 rows in set (0.021 sec)
+
+
+39. Find the customer-wise total sales for all the customers except ‘TKB SPORT SHOP’ who
+came to purchase various sports items maximum four times.
+mysql> SELECT CUSTNAME,
+    -> SUM(AMOUNT) AS TOTAL_SALES
+    -> FROM SALES
+    -> WHERE CUSTNAME <> 'TKB SPORT SHOP'
+    -> GROUP BY CUSTNAME
+    -> HAVING COUNT(*) <= 4;
++---------------+-------------+
+| CUSTNAME      | TOTAL_SALES |
++---------------+-------------+
+| VOLLYRITE     |    27775.50 |
+| SHAPE UP      |      700.40 |
+| WOMENS SPORTS |      710.00 |
+| NORTH WOODS   |     6400.00 |
++---------------+-------------+
+4 rows in set (0.126 sec)
+
+48. Write a query to find the salesman number (repid) who has achieved the maximum total
+sales among the entire salesman.
+mysql> SELECT REPID
+    -> FROM SALES
+    -> GROUP BY REPID
+    -> HAVING SUM(AMOUNT) = (
+    -> SELECT MAX(TOTAL_SALES)
+    -> FROM(
+    -> SELECT SUM(AMOUNT) AS TOTAL_SALES
+    -> FROM SALES
+    -> GROUP BY REPID
+    -> ) AS TEMP
+    -> );
++-------+
+| REPID |
++-------+
+|  7844 |
++-------+
+1 row in set (0.386 sec)
+
+

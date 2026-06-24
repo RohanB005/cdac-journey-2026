@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h2>Simple Calculator</h2>
+
+        Num1<input type="text" id="n1"><br><br>
+        Num2<input type="text" id="n2"><br><br>
+
+        <button onclick="add()">Add</button>
+        <button onclick="sub()">Subtract</button>
+        <button onclick="mul()">Multiply</button>
+        <button onclick="div()">Divide</button>
+
+        <h3 id="result"></h3>
+
+        <script>
+            function validate(a,b)
+            {
+
+                if(a === "" || b === "")
+            {
+                alert("Enter a number");
+                return;
+            }
+            if(isNaN(a) || isNaN(b))
+            {
+                alert("Enter a number");
+                return null;
+            }
+            return true;
+        }
+            function add()
+            {
+                let a = Number(document.getElementById("n1").value);
+                let b = Number(document.getElementById("n2").value);
+                if(!validate(a,b)) return;
+                document.getElementById("result").innerHTML = a+b;
+            }
+            function sub()
+            {
+                let a = Number(document.getElementById("n1").value);
+                let b = Number(document.getElementById("n2").value);
+                document.getElementById("result").innerHTML = a-b;
+            }            
+            function mul()
+            {
+                let a = Number(document.getElementById("n1").value);
+                let b = Number(document.getElementById("n2").value);
+                document.getElementById("result").innerHTML = a*b;
+            }
+            function div()
+            {
+                let a = Number(document.getElementById("n1").value);
+                let b = Number(document.getElementById("n2").value);
+                document.getElementById("result").innerHTML = a/b;
+            }
+        </script>
+    </body>
+</html>

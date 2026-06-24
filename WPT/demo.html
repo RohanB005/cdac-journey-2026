@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Demo</title>
+        <script>
+            function saveStudent()
+            {
+                let id = document.getElementById("sid").value;
+                let name = document.getElementById("sname").value;
+
+                let error = document.getElementById("error-msg");
+                error.textContent = "";
+
+                if(id === "" || name === "")
+            {
+                error.textContent = "Fields cannot be empty";
+                return false;
+            }
+
+                let student = {
+                    s_id : id,
+                    s_name : name
+                };
+
+                let table = document.getElementById("studentTable");
+
+                let row = table.insertRow();
+                let cell1 = row.insertCell(0);
+                let cell2 = row.insertCell(1);
+
+                cell1.innerHTML = student.s_id;
+                cell2.innerHTML = student.s_name;
+
+                document.getElementById(sid).value = "";
+                document.getElementById(sname).value = "";
+
+
+            }
+        </script>
+    </head>
+    <body>
+        <h1>DEMO</h1>
+        <label>Student ID:</label>
+        <input type="text" id="sid"><br><br>
+
+        <label>Student Name:</label>
+        <input type="text" id="sname"><br><br>
+
+        <button onclick="saveStudent()">Add Student</button><br><br>
+        <div id="error-msg" style="color: red;"></div>
+        <table border="1" id="studentTable">
+            <tr>
+                <th>Student ID</th>
+                <th>Student Name</th>
+            </tr>
+        </table>
+    </body>
+</html>

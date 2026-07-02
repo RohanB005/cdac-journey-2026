@@ -1,0 +1,14 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.exe
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.deps.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.runtimeconfig.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\obj\Debug\net8.0\refint\CalculatorApp.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.genruntimeconfig.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\MyCalculator\CalculatorApp\obj\Debug\net8.0\ref\CalculatorApp.dll

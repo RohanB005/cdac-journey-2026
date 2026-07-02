@@ -1,0 +1,14 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\bin\Debug\net8.0\CarpetCostApp.exe
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\bin\Debug\net8.0\CarpetCostApp.deps.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\bin\Debug\net8.0\CarpetCostApp.runtimeconfig.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\bin\Debug\net8.0\CarpetCostApp.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\bin\Debug\net8.0\CarpetCostApp.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\obj\Debug\net8.0\CarpetCostApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\obj\Debug\net8.0\CarpetCostApp.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\obj\Debug\net8.0\CarpetCostApp.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\obj\Debug\net8.0\CarpetCostApp.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\obj\Debug\net8.0\CarpetCostApp.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\obj\Debug\net8.0\refint\CarpetCostApp.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\obj\Debug\net8.0\CarpetCostApp.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\obj\Debug\net8.0\CarpetCostApp.genruntimeconfig.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\CostCalculator\CarpetCostApp\obj\Debug\net8.0\ref\CarpetCostApp.dll

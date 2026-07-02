@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\Threading\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D012275-25F1-457E-9403-0F224DD70909}|Threading\\Threading.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\threading\\threading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D012275-25F1-457E-9403-0F224DD70909}|Threading\\Threading.csproj|solutionrelative:threading\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\Threading\\Threading\\Program.cs",
+              "RelativeDocumentMoniker": "Threading\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\Threading\\Threading\\Program.cs",
+              "RelativeToolTip": "Threading\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T08:47:55.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

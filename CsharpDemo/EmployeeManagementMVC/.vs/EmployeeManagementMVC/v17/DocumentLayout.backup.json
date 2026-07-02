@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Controllers\\EmployeeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Controllers\\EmployeeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Models\\EmployeeDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Models\\EmployeeDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Views\\Employee\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Views\\Employee\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Views\\Employee\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Views\\Employee\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Views\\Employee\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagementMVC\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\source\\repos\\SQLQuery2.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EmployeeManagementMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T13:04:44.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\appsettings.Development.json",
+              "RelativeToolTip": "EmployeeManagementMVC\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-30T13:03:08.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Models\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Models\\EmployeeDbContext.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Models\\EmployeeDbContext.cs",
+              "RelativeToolTip": "EmployeeManagementMVC\\Models\\EmployeeDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T13:12:09.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeManagementMVC\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T13:11:15.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Program.cs",
+              "RelativeToolTip": "EmployeeManagementMVC\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T12:36:29.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\appsettings.json",
+              "RelativeToolTip": "EmployeeManagementMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-30T12:38:30.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "EmployeeManagementMVC\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-29T13:13:52.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "EmployeeManagementMVC\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-29T13:12:47.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "EmployeeManagementMVC\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-29T13:14:11.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "EmployeeManagementMVC\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-29T13:14:39.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "EmployeeManagementMVC\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-29T13:14:26.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementMVC\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementMVC\\EmployeeManagementMVC\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagementMVC\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T13:11:45.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SQLQuery2.sql",
+              "DocumentMoniker": "C:\\Users\\rohan\\source\\repos\\SQLQuery2.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\SQLQuery2.sql",
+              "ToolTip": "C:\\Users\\rohan\\source\\repos\\SQLQuery2.sql",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\SQLQuery2.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-29T13:17:21.37Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

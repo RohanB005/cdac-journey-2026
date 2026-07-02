@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\employeemanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\employeemanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\employeemanagementsystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\employeemanagementsystem\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{49CF65DE-FF38-4BD6-848F-56B92C35DFAC}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Form1.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwE4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T15:41:15.194Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T16:51:21.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\LoginForm.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T16:49:26.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\LoginForm.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T16:40:31.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T15:42:23.738Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.Designer.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Form1.Designer.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAowMcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T15:42:08.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.resx",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Form1.resx",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.resx",
+              "RelativeToolTip": "EmployeeManagementSystem\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-06-20T15:42:11.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

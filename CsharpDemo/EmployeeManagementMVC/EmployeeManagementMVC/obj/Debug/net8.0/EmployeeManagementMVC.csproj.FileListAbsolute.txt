@@ -1,0 +1,9 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\EmployeeManagementMVC\EmployeeManagementMVC\obj\Debug\net8.0\EmployeeManagementMVC.csproj.AssemblyReference.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\EmployeeManagementMVC\EmployeeManagementMVC\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\EmployeeManagementMVC\EmployeeManagementMVC\obj\Debug\net8.0\EmployeeManagementMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\EmployeeManagementMVC\EmployeeManagementMVC\obj\Debug\net8.0\EmployeeManagementMVC.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\EmployeeManagementMVC\EmployeeManagementMVC\obj\Debug\net8.0\EmployeeManagementMVC.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\EmployeeManagementMVC\EmployeeManagementMVC\obj\Debug\net8.0\EmployeeManagementMVC.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\EmployeeManagementMVC\EmployeeManagementMVC\obj\Debug\net8.0\EmployeeManagementMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\EmployeeManagementMVC\EmployeeManagementMVC\obj\Debug\net8.0\EmployeeManagementMVC.RazorAssemblyInfo.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\EmployeeManagementMVC\EmployeeManagementMVC\obj\Debug\net8.0\EmployeeManagementMVC.RazorAssemblyInfo.cs

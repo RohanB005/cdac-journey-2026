@@ -1,0 +1,11 @@
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\bin\Debug\net8.0\MathLibrary.deps.json
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\bin\Debug\net8.0\MathLibrary.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\bin\Debug\net8.0\MathLibrary.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\obj\Debug\net8.0\MathLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\obj\Debug\net8.0\MathLibrary.AssemblyInfoInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\obj\Debug\net8.0\MathLibrary.AssemblyInfo.cs
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\obj\Debug\net8.0\MathLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\obj\Debug\net8.0\MathLibrary.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\obj\Debug\net8.0\refint\MathLibrary.dll
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\obj\Debug\net8.0\MathLibrary.pdb
+C:\Users\rohan\OneDrive\Desktop\CDAC\MathLibrary\MathLibrary\obj\Debug\net8.0\ref\MathLibrary.dll

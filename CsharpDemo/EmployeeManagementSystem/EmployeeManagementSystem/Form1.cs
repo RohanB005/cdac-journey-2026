@@ -15,7 +15,7 @@ namespace EmployeeManagementSystem
         List<Employee> employees = new List<Employee>();
         public Form1()
         {
-            InitializeComponent();   
+            InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)

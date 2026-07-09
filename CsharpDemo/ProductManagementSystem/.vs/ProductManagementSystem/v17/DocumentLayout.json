@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\productmanagementsystem\\productmanagementsystem\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\productmanagementsystem\\productmanagementsystem\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\productmanagementsystem\\productmanagementsystem\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\productmanagementsystem\\productmanagementsystem\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\productmanagementsystem\\productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\rohan\\onedrive\\desktop\\cdac\\productmanagementsystem\\productmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5ED75200-F71D-457B-8CBE-010B64893723}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Models\\ProductDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProductManagementSystem\\Models\\ProductDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\source\\repos\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\source\\repos\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rohan\\source\\repos\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ProductManagementSystem\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T18:07:38.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "ProductManagementSystem\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T18:07:37.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ProductManagementSystem\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-09T18:07:27.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T16:44:42.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Program.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T16:41:03.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Models\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Models\\ProductDbContext.cs",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\Models\\ProductDbContext.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Models\\ProductDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T16:40:12.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\rohan\\OneDrive\\Desktop\\CDAC\\ProductManagementSystem\\ProductManagementSystem\\appsettings.json",
+              "RelativeToolTip": "ProductManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-09T16:35:48.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\rohan\\source\\repos\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\SQLQuery1.sql",
+              "ToolTip": "SQLQuery1.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-09T16:06:26.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

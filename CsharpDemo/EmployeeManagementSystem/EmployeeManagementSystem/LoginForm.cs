@@ -19,7 +19,7 @@ namespace EmployeeManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text == "admin" && textBox2.Text == "1234")
+            if (textBox1.Text == "admin" && textBox2.Text == "1234")
             {
                 Form1 frm = new Form1();
 

@@ -5,9 +5,9 @@ using StudentManagementSystem.Models;
 
 public class StudentsController : Controller
 {
-    private readonly Student1DbContext _context;
+    private readonly StudentDbContext _context;
 
-    public StudentsController(Student1DbContext context)
+    public StudentsController(StudentDbContext context)
     {
         _context = context;
     }
@@ -47,7 +47,7 @@ public class StudentsController : Controller
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("StudentId,StudentName,Course,Age,City")] Student student)
+    public async Task<IActionResult> Create([Bind("StudentId,FirstName,LastName,Dob,Email,PhoneNumber")] Student student)
     {
         if (ModelState.IsValid)
         {
@@ -79,7 +79,7 @@ public class StudentsController : Controller
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int? id, [Bind("StudentId,StudentName,Course,Age,City")] Student student)
+    public async Task<IActionResult> Edit(int? id, [Bind("StudentId,FirstName,LastName,Dob,Email,PhoneNumber")] Student student)
     {
         if (id != student.StudentId)
         {

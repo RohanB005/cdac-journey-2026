@@ -1,5 +1,5 @@
-using StudentManagementSystem.Models;
 using Microsoft.EntityFrameworkCore;
+using StudentManagementSystem.Models;
 
 namespace StudentManagementSystem
 {
@@ -9,8 +9,7 @@ namespace StudentManagementSystem
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddDbContext<Student1DbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Student1DbContext")));
-
+            builder.Services.AddDbContext<StudentDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
